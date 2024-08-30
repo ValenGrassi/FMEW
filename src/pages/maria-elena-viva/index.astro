@@ -1,0 +1,46 @@
+---
+import Layout from "../../layouts/Layout.astro"
+import Footer from "../../layouts/Footer.astro"
+import video1 from "../../../public/video1.mp4"
+import video2 from "../../../public/video2.mp4"
+import '@fontsource/playfair-display';
+---
+
+<Layout title="María Elena Viva - FMEW">
+    <div class="my-20 md:mt-0 mx-10 lg:mx-0">
+        <h1 class="text-center font text-4xl">María Elena Viva</h1>
+        <div class="flex flex-col md:flex-row max-w-6xl m-auto col-span-2 gap-8 my-8 items-center">
+            <div class="md:w-1/2 gap-4 grid">
+                <video src={video1} preload="auto" controlslist="nodownload" controls>
+                    <source src="./video1.mp4" type="video/mp4">
+                </video>
+                <span>Programa La Cigarra, 1984</span>
+            </div>
+            <div class="md:w-1/2 gap-4 grid">
+                <video src={video2} preload="auto" controlslist="nodownload" controls>
+                    <source src="./video2.mp4" type="video/mp4">
+                </video>
+                <span>Programa La Cigarra, 1984</span>
+            </div>
+        </div>
+        <!-- <h3 class="text-center font text-2xl">María Elena en YouTube</h3>
+            <div class="flex flex-col md:flex-row max-w-6xl m-auto col-span-2 gap-8 my-8 items-center">
+                <div class="md:w-1/2 gap-4 grid w-full">
+                    <iframe class="w-full" width="560" height="315" src="https://www.youtube.com/embed/rPHDj-5Thjc?si=eFW_avXWFmfM7Ulj" title="YouTube video player" allowfullscreen></iframe>
+                    <span>Filo News, 2022</span>
+                </div>
+                <div class="md:w-1/2 gap-4 grid w-full">
+                    <iframe class="w-full" width="560" height="315" src="https://www.youtube.com/embed/fHHHVVV65lU?si=RjbLhfybcok-kcy8" title="YouTube video player" allowfullscreen></iframe>
+                    <span>Programa El Sonajero, 1989</span>
+                    
+                </div>
+            </div> -->
+
+    </div>
+    <Footer/>
+</Layout>
+<style>
+    .font{
+        font-family: "playfair display", sans-serif;
+    }
+</style>

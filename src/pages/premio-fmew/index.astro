@@ -1,0 +1,40 @@
+---
+import Layout from "../../layouts/Layout.astro"
+import Footer from "../../layouts/Footer.astro"
+import '@fontsource/playfair-display';
+import { Image } from "astro:assets";
+import premiofmew from "../../assets/premiosin.png" 
+import {Premio} from "../../components/react/Premio"
+---
+
+<Layout title="Premio - FMEW">
+    <div class="my-20 md:mt-0 mx-10 lg:mx-0">
+        <h1 class="text-center font text-4xl">Premio Fundación María Elena Walsh</h1>
+        <div class="m-auto flex flex-col md:flex-row justify-center items-center w-full lg:w-2/3 my-8 gap-20">
+            <div>
+                <Image class="w-[45rem]" alt="premio fmew" src={premiofmew} /> 
+                <p class="text-center">Obra de Marina Dogliotti</p>
+                <p class="text-center">Foto de María de la Paz Gutiérrez</p>
+            </div>
+            <div class="flex flex-col gap-4">
+                <Premio año={"Premio 2018 - "} title="Tomás Downey" client:idle />
+                <Premio año={"Premio 2019 - "} title="Mariano Vespa" client:idle />
+                <Premio año={"Premio 2020 - "} title="María de la Paz Gutiérrez" client:idle />
+                <Premio año={"Premio 2023 - "} title="Mauro Zoladz" client:idle />
+            </div>
+        </div>
+    </div>
+    <Footer/>
+</Layout>
+<style>
+    .font{
+        font-family: "playfair display", sans-serif;
+    }
+    .premio-info {
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    .premio-info.active {
+        opacity: 1;
+    }
+</style>

@@ -1,0 +1,18 @@
+---
+import Card from "../components/Card.astro"
+import noticias from "../assets/noticias.png"
+import blogpremio from "../assets/blogpremio1.jpg"
+import somos from "../assets/somos.png"
+import alianzas from "../assets/alianzas.jpg"
+---
+
+<div class="pb-20 px-10 xl:px-0">
+    <div class="flex flex-col md:flex-row items-center max-w-6xl m-auto gap-5 mt-8">
+        <Card title="Noticias" src={noticias} href="/noticias"/>	
+        <Card title="Blog" src={blogpremio} href="/blog"/>	
+        <Card title="Quiénes somos" src={somos} href="/quienes-somos" />
+        <Card title="Alianzas" src={alianzas} href="/quienes-somos/#alianzas" />
+    </div>
+    <!-- <div class="flex flex-col md:flex-row items-center max-w-6xl m-auto gap-5 mt-8">
+    </div> -->
+</div>

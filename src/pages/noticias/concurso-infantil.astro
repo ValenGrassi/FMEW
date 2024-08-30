@@ -1,0 +1,83 @@
+---
+import Layout from "../../layouts/Layout.astro"
+import Footer from "../../layouts/Footer.astro"
+import '@fontsource/playfair-display';
+import { Image } from "astro:assets";
+import manuelita from "../../assets/manuelita.png"
+---
+
+<Layout title="Concurso Infant - FMEW">
+    <div class="my-20 md:mt-0 mx-10 lg:mx-0">
+        <h1 class="text-center font text-4xl">CONCURSO INFANTIL: ¡Festejamos los 60 años de Manuelita!</h1>
+        <div class="md:max-w-6xl m-auto my-8 lg:px-0">
+            <Image class="mt-4 m-auto w-3/4" src={manuelita} alt="manuelita" />
+            <p class="font-semibold mt-4">Organiza:</p>
+            <p>Fundación María Elena Walsh</p>
+
+            <p class="font-semibold mt-4">Objetivos</p>
+            <ul class="list-disc list-outside ml-5 mt-2">
+                <li>Creación de producciones plásticas grupales basadas en la canción “Manuelita la tortuga”</li>
+                <li>Convocar la participación de grupos de niños y niñas de instituciones educativas, sociales y culturales de gestión estatal y privada                </li>
+            </ul>
+
+            <p class="font-semibold mt-4">Categorías</p>
+            <ul class="list-disc list-outside ml-5 mt-2">
+                <li>Grupos de Niños/as de 4 y 5 años</li>
+                <li>Grupos de Niños/as de 6 y 7 años</li>
+            </ul>
+
+            <p class="font-semibold mt-4">Lenguaje</p>
+            <p>Arte sustentable</p>
+
+            <p class="font-semibold mt-4">Materiales</p>
+            <p class="font-normal">Se valorará el uso de material descartable y/o reciclable</p>
+
+            <p class="font-semibold mt-4">Modalidad</p>
+            <ul class="list-disc list-outside ml-5 mt-2">
+                <li>Producción plástica grupal a partir de una escena a elección de la canción “Manuelita la tortuga”
+                </li>
+                <li>Presentación digital
+                </li>
+                <li>Una foto del trabajo final en un archivo formato JPG
+                </li>
+                <li>Tres fotos del proceso de realización dentro de la institución
+                </li>
+                <li>Datos Institución, categoría, título de la obra, adultos/as que acompañan la tarea, mail de contacto, teléfono
+                </li>
+            </ul>
+
+            <p class="font-semibold mt-4">Cronograma</p>
+            <ul class="list-disc list-outside ml-5 mt-2">
+                <li>Recepción de obras: del 18 de septiembre al 18 de octubre de 2023
+                </li>
+                <li>Votación: al finalizar la recepción de obras
+                </li>
+                <li>Comunicación de resultados: 8 de Noviembre 2023
+                </li>
+            </ul>
+
+            <p class="font-semibold mt-4">Reconocimiento</p>
+            <ul class="list-disc list-outside ml-5 mt-2">
+                <li>Un set de materiales artísticos y libros de María Elena para un grupo por categoría
+                </li>
+                <li>Las obras seleccionadas serán parte del logo “60 años de Manuelita”
+                </li>
+            </ul>
+
+            <p class="font-semibold mt-4">Exhibición de las obras seleccionadas</p>
+            <p>El 15 de noviembre de 2023 en el 1º Festival María Elena Walsh organizado por la Fundación María Elena Walsh</p>
+            
+            <p class="mt-4">Envío de trabajos y consultas: <b><u><a href="mailto:red@fundacionmariaelenawalsh.com">red@fundacionmariaelenawalsh.com</a></u></b></p>
+
+        </div>
+    </div>
+    <Footer/>
+</Layout>
+<style>
+    .font{
+        font-family: "playfair display", sans-serif;
+    }
+    li{
+        font-weight: 300 !important;
+    }
+</style>

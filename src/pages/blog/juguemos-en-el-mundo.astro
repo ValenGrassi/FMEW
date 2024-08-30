@@ -1,0 +1,45 @@
+---
+import Layout from "../../layouts/Layout.astro"
+import Footer from "../../layouts/Footer.astro"
+import '@fontsource/playfair-display';
+import { Image } from "astro:assets";
+import juguemos1 from "../../assets/juguemos1.jpg"
+import juguemos2 from "../../assets/juguemos2.jpg"
+
+---
+
+<Layout title="María Elena Viva - FMEW">
+    <div class="my-20 md:mt-0 mx-10 lg:mx-0">
+        <h1 class="text-center font text-4xl">En el set de “Juguemos en el Mundo”</h1>
+        <div class="md:max-w-6xl m-auto my-8 lg:px-0">
+            <div class="flex flex-col justify-center items-center">
+                <div class="flex flex-col md:flex-row gap-5 mt-4">
+                    <Image src={juguemos1} alt="interes1" class="h-96 w-auto"/>
+                    <Image src={juguemos2} alt="interes2" class="h-96 w-auto"/>
+                </div>
+            </div>
+            
+            <p class="mt-4">Era el año 1971 y María Elena había comenzado una aventura nueva que junto a María Herminia Avellaneda habían soñado desde hacía bastante tiempo: filmar una película.
+            </p>
+
+            <p class="mt-4">Rodeada de periodistas y bajo un gran sombrero blanco, María Herminia explicaba por qué había elegido la localidad de Pasteur para filmar “Juguemos en el mundo”, el guión de María Elena: “Yo siempre tuve ganas de mostrar este pueblo en el que pasé mi infancia; este pueblo como reflejo del país”. Un equipo técnico de más de cincuenta personas junto a un elenco de “famosos” -María Elena, Perla Santalla, Norman Briski, Jorge Mayor, Aída y Jorge Luz, Virginia Lago, Hugo Caprera y muchos más- revolucionaron al pueblo. Sin embargo, pronto la gente del pueblo confraternizó con ellos ya que descubrieron, con asombro, que los actores eran gente corriente a los que adoptaron familiarmente con los nombres de sus personajes: Doña Disparate, Bambuco, El Linyera, Los Ñaupa o el Señor Mandoni.
+            </p>
+
+            <p class="mt-4">Durante la filmación un grupo de amigas llegó con pasteles y regalos en un Fiat 600 que conducía la fotógrafa Sara Facio para celebrar junto a María Elena sus 41 años. En una escapada de la filmación, María Elena y Sara caminaban por las calles del pueblo hasta que María Elena ve la oportunidad de revivir una de las mayores alegrías de su infancia: le pide prestada a un chico su bicicleta y con una sonrisa dedicada a Sara, se lanza por las calles de Pasteur. Sara, que nunca dejaba su cámara, tomó una serie de fotos de esta experiencia que fue inolvidable para las dos.
+            </p>
+
+        </div>
+    </div>
+    <Footer/>
+</Layout>
+<style>
+    .font{
+        font-family: "playfair display", sans-serif;
+    }
+    li{
+        font-weight: 300 !important;
+    }
+    img{
+        max-width: none !important;
+    }
+</style>

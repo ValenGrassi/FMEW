@@ -1,0 +1,42 @@
+---
+import Layout from "../../layouts/Layout.astro"
+import Footer from "../../layouts/Footer.astro"
+import '@fontsource/playfair-display';
+import { Image } from "astro:assets";
+import foto1 from "../../assets/nuevafiguracion1.jpeg"
+import foto2 from "../../assets/nuevafiguracion2.jpeg"
+---
+
+<Layout title="Nueva Figuración - FMEW">
+    <div class="my-20 md:mt-0 mx-10 lg:mx-0">
+        <h1 class="text-center font text-4xl">Fundación María Elena Walsh - Sara Facio</h1>
+        <div class="md:max-w-6xl m-auto my-8 lg:px-0">
+            <div class="md:flex gap-5">
+                <Image class="mt-4 m-auto w-1/2" src={foto2} alt="manuelita" />
+                <Image class="mt-4 m-auto w-1/2" src={foto1} alt="manuelita" />
+            </div>
+            <div class="md:max-w-6xl m-auto my-8 lg:px-0">
+                <p class="mt-4">Fue decisión unánime de los miembros de nuestra institución solicitar a Sara Facio su aceptación para incorporar su nombre a nuestra Fundación.
+                </p>
+    
+                <p class="mt-4">Por la importancia de su obra, por su adelantada gestión para difundir la fotografía argentina; por sus cualidades éticas y por su incansable dedicación a la cultura y al crecimiento de nuestro país, es que informamos orgullosamente que nuestra institución se llamará a partir de este momento,  Fundación María Elena Walsh-Sara Facio.
+                </p>
+    
+                <p class="mt-4">La primera actividad que desarrollará la Fundación para la difusión de la obra de Sara, será la inauguración de una exposición en la Quinta Trabucco que es un espacio dependiente de la Secretaría de Cultura del Municipio de Vicente López
+                </p>
+                
+                <p class="mt-4"><b>Graciela García Romero,</b></p>
+                <p><b>Presidenta</b></p>
+            </div>
+        </div>
+    </div>
+    <Footer/>
+</Layout>
+<style>
+    .font{
+        font-family: "playfair display", sans-serif;
+    }
+    li{
+        font-weight: 300 !important;
+    }
+</style>

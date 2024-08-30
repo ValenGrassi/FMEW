@@ -1,0 +1,16 @@
+---
+import Card from "../components/Card.astro"
+import biografia from "../assets/biografia.jpg"
+import obra from "../assets/obra.png"
+import homenajes from "../assets/homenajes.png"
+import viva from "../assets/viva.png"
+---
+
+<div class="pb-20 px-10 xl:px-0">
+    <div class="flex flex-col md:flex-row items-center max-w-6xl m-auto gap-5 mt-8">
+        <Card title="Biografía" src={biografia} href="/biografia" />
+        <Card title="La obra" src={obra} href="/obras" />	
+        <Card title="Premios y homenajes" src={homenajes} href="/premios-y-homenajes" />
+        <Card title="María Elena viva" src={viva} href="/maria-elena-viva" />
+    </div>
+</div>

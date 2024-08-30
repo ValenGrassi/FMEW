@@ -1,0 +1,272 @@
+---
+import Layout from "../../layouts/Layout.astro"
+import Footer from "../../layouts/Footer.astro"
+import bio1 from "../../assets/bio1.jpg"
+import bio2 from "../../assets/bio2.jpg"
+import bio3 from "../../assets/bio3.jpg"
+import bio4 from "../../assets/bio4.jpg"
+import bio5 from "../../assets/bio5.jpg"
+import bio6 from "../../assets/bio6.jpg"
+import bio7 from "../../assets/bio-7.jpg"
+import bio8 from "../../assets/bio8.jpeg"
+import bio9 from "../../assets/bio9.jpg"
+import bio10 from "../../assets/bio10.jpg"
+
+import '@fontsource/playfair-display';
+import { Image } from "astro:assets"
+
+---
+
+<Layout title="Biografía - FMEW">
+    <div class="flex justify-center">
+        <div id="div" class="divClass transition-opacity duration-500 opacity-0 absolute bottom-2 w-12 h-16 rounded-3xl bg-white"><span class="flecha" id="flechas"></span></div>
+    </div>
+    <div class="m-auto mt-6 text-white mb-20 text-sm xl:text-base px-10">
+        <div class="flex flex-col md:flex-row">
+            <div class="md:w-1/2">
+                <Image class="py-6 md:py-0" src={bio1} alt="maria elena biografia"/>
+                <span class="absolute left-4">Foto: Sara Facio</span>
+            </div>
+            <div class="md:w-1/2 grid place-content-center pt-16 md:p-24">
+                <h1 class="title">Biografía</h1>
+                <h2 class="subtitle">Poeta, novelista, cantante, compositora, guionista de teatro, cine y televisión, es una figura esencial de la cultura argentina.</h2>
+                <p>Su compromiso ético, su proximidad a la paz y la concordia, su cercanía al movimiento de la No Violencia la convirtieron en un símbolo en momentos oscuros de nuestra época.</p>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row">
+            <div class="md:w-1/2 grid place-content-center pt-16 md:p-24">
+                <h4 class="subtitle2">María Elena Walsh nació en Ramos Mejía, provincia de Buenos Aires, en 1930.</h4>
+                <p>Estudió en la Escuela Nacional de Bellas Artes. A los quince años comenzó a publicar sus primeros poemas en distintos medios, y en 1947 apareció su primer libro de poemas:
+                    <br>Otoño imperdonable.</p>
+            </div>
+            <Image class="md:w-1/2 py-6 md:py-0" src={bio2} alt="maria elena biografia"/>
+        </div>
+        <div class="flex flex-col md:flex-row">
+            <div class="md:w-1/2">
+                <Image class="py-6 md:py-0" src={bio3} alt="maria elena biografia"/>
+                <span class="absolute left-4">Foto Iris. París</span>
+            </div>
+            <div class="md:w-1/2 grid place-content-center pt-16 md:p-24">
+                <p>En 1952 viajó a Europa, donde, con la folclorista Leda Valladares, integró el dúo Leda y María; ambas actuaron y grabaron discos en París, Londres y Colonia (Alemania).</p>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row">
+            <div class="md:w-1/2 grid place-content-center pt-16 md:p-24">
+                <p class="mb-4">Desde 1958, ya en la Argentina, comenzó a escribir programas de televisión para chicos y para grandes, y realizó el largometraje Juguemos en el mundo, dirigido por María Herminia Avellaneda. También compuso guiones para cine, al tiempo que su música fue incorporada a filmes de trascendencia internacional.</p>
+                <p>En 1962 estrenó Canciones para mirar en el Teatro San Martín, con tan buena recepción que, al año siguiente, puso en escena Doña Disparate y Bambuco, con idéntica respuesta. Ambas obras se publicaron como libros en 2008.</p>
+
+            </div>
+            <Image class="md:w-1/2 py-6 md:py-0" src={bio4} alt="maria elena biografia"/>
+        </div>
+        <div class="flex flex-col md:flex-row">
+            <div class="md:w-1/2">
+                <Image class="py-6 md:py-0" src={bio5} alt="maria elena biografia"/>
+            </div>
+            <div class="md:w-1/2 grid place-content-center px-24 gap-4">
+                <Image class="hidden md:block" src={bio9} alt="maria elena biografia"/>
+                <Image class="hidden md:block" src={bio10} alt="maria elena biografia"/>
+                <p>Fotos: Sara Facio</p>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row">
+            <div class="md:w-1/2 grid place-content-center pt-16 md:p-24 gap-12">
+                <p class="title">Bibliografía</p>
+                <ul class="px-10">
+                    <li></li>
+                    <li>
+                        <div class="text-white year">1960</div>
+                        <p class="text-xs">Tutú Marambá</p>
+                    </li>
+                    <li>
+                        <div class="text-white year">1964</div>
+                        <p class="text-xs">Zoo Loco</p>
+                    </li>
+                    <li>
+                        <div class="text-white year">1965</div>
+                        <p class="text-xs">El Reino del Revés</p>
+                    </li>
+                    <li>
+                        <div class="text-white year">1966</div>
+                        <p class="text-xs">Dailan Kifki</p>
+                        <p class="text-xs">Cuenatopos de Gulubú</p>
+                    </li>
+                    <li>
+                        <div class="text-white year">1967</div>
+                        <p class="text-xs">Versos tradicionales para cebollitas</p>
+                    </li>
+                    <li>
+                        <div class="text-white year">1974</div>
+                        <p class="text-xs">El Diablo Inglés</p>
+                    </li>
+                    <li>
+                        <div class="text-white year">1975</div>
+                        <p class="text-xs">Chaucha y Palito</p>
+                    </li>
+                    <li>
+                        <div class="text-white year">1990</div>
+                        <p class="text-xs">Novios de Antaño</p>
+                        <p class="text-xs not-italic">Primera novela para adultos</p>
+                    </li>
+                    <li>
+                        <div class="text-white year">1997</div>
+                        <p class="text-xs">Manuelita, ¿dónde vas?</p>
+                    </li>
+                    <li>
+                        <div class="text-white year">2002</div>
+                        <p class="text-xs">Hotel Pioho's Palace</p>
+                    </li>
+                    <li>
+                        <div class="text-white year">2004</div>
+                        <p class="text-xs">¡Cuánto Cuento!</p>
+                    </li>
+                    <li>
+                        <p class="text-xs">Fantasmas en el Parque</p>
+                        <p class="text-xs not-italic">Inclasificable como género, mezcla de novela, memorias y ficción.</p>
+                    </li>
+                    <li></li>
+                </ul>
+            </div>
+            <Image class="md:w-1/2 py-6 md:py-0" src={bio6} alt="maria elena biografia"/>
+        </div>
+        <div class="flex flex-col md:flex-row">
+            <div class="md:w-1/2">
+                <Image class="py-6 md:py-0" src={bio7} alt="maria elena biografia"/>
+                <span class="absolute left-4">Foto: Sara Facio</span>
+            </div>
+            <div class="md:w-1/2 grid place-content-center pt-16 md:p-24">
+                <p>María Elena Walsh fue muy reconocida entre sus pares y obtuvo numerosas distinciones: Premio Municipal de Poesía; Premio Argentores; Gran Premio SADAIC; Gran Premio de Honor del Fondo Nacional de las Artes; el Highly Commended del Premio Hans Christian Andersen de la IBBY, Dinamarca; Premio Gabriela Mistral, Chile; Konex de Honor (Letras), entre muchos otros.</p>
+                <p class="hidden lg:block">En 1985 fue nombrada Ciudadana Ilustre de la Ciudad de Buenos Aires; en 1990, Doctor Honoris Causa de la Universidad Nacional de Córdoba, Argentina; en 2008 recibió el Reconocimiento Público de la Academia Argentina de Letras.</p>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row">
+            <div class="md:w-1/2 grid place-content-center pt-16 md:p-24">
+                <p class="mb-4">Desde los 15 años fue una de las expresiones más sobresalientes de su generación con una poética propia que enriqueció toda su obra convirtiendo a sus creaciones en verdaderos clásicos.</p>
+                <p class="mb-4">La importancia de sus títulos de literatura infantil trasciende la frontera de los países de habla hispana, ya que han sido traducidos al inglés, francés, italiano, sueco, hebreo, danés, chino, guaraní y vietnamita.</p>
+                <p class="mb-4">Su cancionero para adultos la consagró en los ’60 en la juglaresa argentina y en las décadas siguientes su obra periodística, en una de las pensadoras más comprometidas con el fortalecimiento de la democracia y la defensa de las minorías. Fue pionera en denunciar  la desigualdad de género y dedicó años de gestión en distintos ámbitos con el propósito de incorporar a la mujer a todos los espacios.</p>
+                <p class="mb-4">Es y será un referente intelectual para muchas generaciones de argentinos.</p>
+                <p class="mt-4 subtitle2">María Elena Walsh murió en Buenos Aires el 10 de enero de 2011.</p>
+            </div>
+            <Image class="md:w-1/2 py-6 md:py-0" src={bio8} alt="maria elena biografia"/>
+        </div>
+    </div>
+    <Footer/>
+</Layout>
+
+<style>
+    .title{
+        font-family: "Playfair Display", sans-serif;
+        font-weight: 300;
+        font-size: 2.5rem;
+        padding: 1rem 0;
+    }
+
+    .subtitle{
+        font-family: "Playfair Display", sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        font-style: oblique;
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+
+    .subtitle2{
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    .divClass{
+        opacity: 100%;
+    }
+
+    .flecha {
+        position: absolute;
+        bottom: 65%;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-left: -12px;
+        border-left: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-animation: sdb05 1.5s infinite;
+        animation: sdb05 1.5s infinite;
+        box-sizing: border-box;  
+    }
+
+    @keyframes sdb05 {
+        0% {
+            transform: rotate(-45deg) translate(0, 0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            transform: rotate(-45deg) translate(-20px, 20px);
+            opacity: 0;
+        }
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+    }
+
+    li{
+        font-weight: 400;
+        font-size: 11px;
+        font-style: italic;
+        padding-bottom: 1.5rem;
+        border-left: 2px solid white;
+        position: relative;
+        padding-left: 20px;
+        margin-left: 10px;
+        cursor: context-menu;
+      }
+
+    .year{
+        font-weight: 400;
+        font-size: 16px;
+        font-style: normal;
+        position: absolute;
+        left: -4rem;
+        top: -5px;
+    }
+
+    li:first-child::before{
+        background-color: white;
+    }
+    li:last-child::before{
+        background-color: white;
+    }
+
+    li:last-child{
+        border: 0px;
+        margin-left: 12px;
+        padding-bottom: 0;
+    }
+    li:before{
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: #231F20;
+        border: 2px solid white;
+        border-radius: 50%;
+        position: absolute;
+        left: -6px;
+    }
+</style>
+
+<script is:inline>
+    const div = document.getElementById("div")
+    window.addEventListener("scroll", () => {
+    const scrolled = window.scrollY;
+    if (scrolled > 1) {
+            div.classList.remove("divClass")
+        }
+})
+</script>

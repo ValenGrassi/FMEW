@@ -1,0 +1,16 @@
+---
+import Card from "../components/Card.astro"
+import biografia from "../assets/biografiasara.jpg"
+import obra from "../assets/obrasara.jpg"
+import homenajes from "../assets/premiossara.webp"
+import viva from "../assets/sarajoven.jpg"
+---
+
+<div class="pb-20 px-10 xl:px-0">
+    <div class="flex flex-col md:flex-row items-center max-w-6xl m-auto gap-5 mt-8">
+        <Card title="Biografía" src={viva} href="/biografia-sara" />
+        <Card title="La obra" src={biografia} href="" />	
+        <Card title="Premios y homenajes" src={homenajes} href="/premios-y-homenajes" />
+        <Card title="Sara viva" src={obra} href="/sara-viva" />
+    </div>
+</div>

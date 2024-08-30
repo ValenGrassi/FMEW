@@ -1,0 +1,159 @@
+---
+import Image from "astro/components/Image.astro"
+import Layout from "../../layouts/Layout.astro"
+import Footer from "../../layouts/Footer.astro"
+import bio1 from "../../assets/sarabio1.jpg"
+import bio2 from "../../assets/sarabio2.jpg"
+import bio3 from "../../assets/bio3.jpg"
+import bio4 from "../../assets/bio4.jpg"
+import bio5 from "../../assets/bio5.jpg"
+import bio6 from "../../assets/bio6.jpg"
+import bio7 from "../../assets/bio-7.jpg"
+import bio8 from "../../assets/bio8.jpeg"
+import bio9 from "../../assets/bio9.jpg"
+import bio10 from "../../assets/bio10.jpg"
+
+import '@fontsource/playfair-display';
+
+---
+
+<Layout title="Biografía - FMEW">
+    <div class="flex justify-center">
+        <div id="div" class="z-10 divClass transition-opacity duration-500 opacity-0 absolute bottom-2 w-12 h-16 rounded-3xl bg-white"><span class="flecha" id="flechas"></span></div>
+    </div>
+    <div class="m-auto text-white mb-20">
+        <div class="flex">
+            <div class="w-1/2">
+                <div class="h-screen"><Image class="h-full w-full image" src={bio1} alt="maria elena biografia"/></div>
+            </div>
+            <div class="w-1/2 grid place-content-center p-24">
+                <h1 class="title">Biografía</h1>
+                <h2 class="subtitle">Fotógrafa, editora, curadora y escritora, es una figura esencial de la cultura argentina.</h2>
+                <p>"Una opinión no te la pueden censurar, te la tienen que rebatir. Un intelectual sin sentido crítico no es un intelectual. Es un adulador."</p>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="w-1/2 grid place-content-center p-24">
+                <h4 class="subtitle">Sara Facio nació en San Isidro, provincia de Buenos Aires, en 1932.</h4>
+                <p>se graduó en la Escuela Nacional de Bellas Artes en 1953 y luego estudió en París con una beca del gobierno francés. En 1960, junto con Alicia D’Amico, abrió un estudio de fotografía que se convirtió en un referente en el campo.</p>
+            </div>
+            <Image class="w-1/2" src={bio2} alt="maria elena biografia"/>
+        </div>
+        <div class="flex">
+            <div class="w-1/2">
+                <div class="h-screen"><Image class="h-full w-full image" src={bio1} alt="maria elena biografia"/></div>
+            </div>
+            <div class="w-1/2 grid place-content-center p-24">
+                <h1 class="title">Biografía</h1>
+                <h2 class="subtitle">Fotógrafa, editora, curadora y escritora, es una figura esencial de la cultura argentina.</h2>
+                <p>"Una opinión no te la pueden censurar, te la tienen que rebatir. Un intelectual sin sentido crítico no es un intelectual. Es un adulador."</p>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="w-1/2 grid place-content-center p-24">
+                <h4 class="subtitle">Sara Facio nació en San Isidro, provincia de Buenos Aires, en 1932.</h4>
+                <p>se graduó en la Escuela Nacional de Bellas Artes en 1953 y luego estudió en París con una beca del gobierno francés. En 1960, junto con Alicia D’Amico, abrió un estudio de fotografía que se convirtió en un referente en el campo.</p>
+            </div>
+            <Image class="w-1/2" src={bio2} alt="maria elena biografia"/>
+        </div>
+    </div>
+    <Footer/>
+</Layout>
+
+<style>
+    .title{
+        font-family: "Playfair Display", sans-serif;
+        font-weight: 300;
+        font-size: 2.5rem;
+    }
+
+    .subtitle{
+        font-family: "Playfair Display", sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        font-style: oblique;
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+
+    .divClass{
+        opacity: 100%;
+    }
+
+    .flecha {
+        position: absolute;
+        bottom: 65%;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-left: -12px;
+        border-left: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-animation: sdb05 1.5s infinite;
+        animation: sdb05 1.5s infinite;
+        box-sizing: border-box;  
+    }
+
+    @keyframes sdb05 {
+        0% {
+            transform: rotate(-45deg) translate(0, 0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            transform: rotate(-45deg) translate(-20px, 20px);
+            opacity: 0;
+        }
+    }
+
+    .image{
+        filter: grayscale(100%);
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+    }
+
+    li{
+        padding-bottom: 1.5rem;
+        border-left: 2px solid white;
+        position: relative;
+        padding-left: 20px;
+        margin-left: 10px;
+        cursor: context-menu;
+      }
+
+    li:last-child{
+        border: 0px;
+        margin-left: 12px;
+        padding-bottom: 0;
+    }
+    li:before{
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: #231F20;
+        border: 2px solid white;
+        border-radius: 50%;
+        position: absolute;
+        left: -6px;
+        top: 0px;
+    }
+</style>
+
+<script is:inline>
+    const div = document.getElementById("div")
+    window.addEventListener("scroll", () => {
+    const scrolled = window.scrollY;
+    if (scrolled > 1) {
+            div.classList.remove("divClass")
+        }
+})
+</script>
