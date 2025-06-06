@@ -2,7 +2,7 @@ import {useState} from "preact/hooks"
 
 export const Video = () => {
     const [muted, setMuted] = useState(true)
-    console.log(muted)
+
     return (
         <>
             {muted ? <svg xmlns="http://www.w3.org/2000/svg" class='absolute z-10 top-80 md:top-auto md:bottom-10 right-10 md:right-20 border rounded-full p-1.5 cursor-pointer hidden md:flex' onClick={() => setMuted(false)} width="38" height="38" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">

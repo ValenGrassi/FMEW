@@ -6,7 +6,7 @@ export const HeaderButton = ({href, children, name, pathname}) => {
         <div>
         <li className="flex flex-col px-4 py-2 font-normal text-sm" onMouseEnter={() => setMouseOver(true)} onMouseLeave={() => setMouseOver(false)} >
             <div className="flex gap-2">
-                <a href={href}>{children}</a>
+                <a href={name == "qs" ? "javascript:void" : href}>{children}</a>
                 <svg className={`mt-1 transition-transform transform duration-200 rotate-180 ${
             mouseOver && "rotate-[0]"
           }`} xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -17,13 +17,14 @@ export const HeaderButton = ({href, children, name, pathname}) => {
         </li>
             <div onMouseEnter={() => setMouseOver(true)} onMouseLeave={() => setMouseOver(false)} className={`bg-white fixed text-black text-[13px] flex flex-col transition-all font-medium ease-in-out delay-75 duration-200 items-center ${mouseOver ? "opacity-100" : "opacity-0 invisible"}`} style={{visibility: mouseOver ? "visible" : "hidden"}}>
                 {name == "fundacion" && <a href={"/premio-fmew"} className={`py-4 px-6 transition-all duration-200 hover:bg-gray-600 hover:text-white w-full flex ${pathname == "/premio-fmew" ? "bg-gray-600 text-white" : "hover:bg-gray-600 hover:text-white"}`}>Premio FMEW</a>}
-                {name == "fundacion" && <a href={"/premio-infantil-fmew"} className={`py-4 px-6 transition-all duration-200 hover:bg-gray-600 hover:text-white w-full flex ${pathname == "/premio-fmew" ? "bg-gray-600 text-white" : "hover:bg-gray-600 hover:text-white"}`}>Premio Infantil FMEW</a>}
                 {name == "fundacion" && <a href={"/maria-elena-y-la-comunidad"} className={`py-4 px-6 transition-all duration-200 hover:bg-gray-600 hover:text-white w-full flex ${pathname == "/maria-elena-y-la-comunidad" ? "bg-gray-600 text-white" : "hover:bg-gray-600 hover:text-white"} `}>María Elena en la Comunidad</a>}
                 {name == "mew" && <a href={"/biografia"} className={`py-4 px-6 transition-all duration-200 hover:bg-gray-600 hover:text-white w-full flex ${pathname == "/biografia" ? "bg-gray-600 text-white" : "hover:bg-gray-600 hover:text-white"}`}>Biografía</a>}
                 {name == "mew" && <a href={"/obras"} className={`py-4 px-6 transition-all duration-200 hover:bg-gray-600 hover:text-white w-full flex ${pathname == "/obras" ? "bg-gray-600 text-white" : "hover:bg-gray-600 hover:text-white"}`}>Obra</a>}
                 {name == "mew" && <a href={"/premios-y-homenajes"} className={`py-4 px-6 transition-all duration-200 w-full flex ${pathname == "/premios-y-homenajes" ? "bg-gray-600 text-white" : "hover:bg-gray-600 hover:text-white"}`}>Premios y Homenajes</a>}
                 {name == "mew" && <a href={"/maria-elena-viva"} className={`py-4 px-6 transition-all duration-200 w-full flex ${pathname == "/maria-elena-viva" ? "bg-gray-600 text-white" : "hover:bg-gray-600 hover:text-white"}`}>María Elena viva</a>}
-                {name == "qs" && <a href={"/quienes-somos/#alianzas"} className={` py-4 px-12 transition-all duration-200 hover:bg-gray-600 hover:text-white w-full flex ${pathname == "/quienes-somos" || pathname == "/quienes-somos/" ? "bg-gray-600 text-white" : "hover:bg-gray-600 hover:text-white"}`}>Alianzas</a>}
+                {name == "qs" && <a className={`cursor-pointer py-4 px-12 transition-all duration-200 hover:bg-gray-600 hover:text-white w-full flex ${pathname == "/quienes-somos" || pathname == "/quienes-somos/" ? "bg-gray-600 text-white" : "hover:bg-gray-600 hover:text-white"}`}>Próximamente</a>}
+                {name == "infancia" && <a href={"/premio-infantil-fmew"} className={`py-4 px-6 transition-all duration-200 hover:bg-gray-600 hover:text-white w-full flex ${pathname == "/premio-infantil-fmew" ? "bg-gray-600 text-white" : "hover:bg-gray-600 hover:text-white"}`}>Premio Infantil FMEW</a>}
+                {name == "infancia" && <a href={"/juego-fmew"} className={`cursor-pointer py-4 px-6 transition-all duration-200 hover:bg-gray-600 hover:text-white w-full flex ${pathname == "/juego-fmew" || pathname == "/juego-fmew/" ? "bg-gray-600 text-white" : "hover:bg-gray-600 hover:text-white"}`}>Juego</a>}
             </div>
         </div>
     )

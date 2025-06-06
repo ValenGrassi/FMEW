@@ -16,6 +16,7 @@ export const MobileHeader = () => {
                     <li class={`flex text-white transition-all ${fundacion && "px-4 py-2.5"}`}><a href="/premio-infantil-fmew" className="text-sm">{fundacion && "Premio Infantil FMEW"}</a></li>
                     <li class={`flex text-white transition-all ${fundacion && "px-4 py-2.5"}`}><a href="/maria-elena-y-la-comunidad" className="text-sm">{fundacion && "María Elena en la Comunidad"}</a></li>
                 </div>
+                <li class="px-4 py-5 text-white"><a href="/juego-fmew">Manuelita, ¿Dónde vas?</a></li>
                 <li onClick={() => setMew(!mew)} class="px-4 py-5 text-white flex gap-2">María Elena Walsh <svg className={`mt-1 transition-transform transform duration-200 rotate-180 ${mew && "rotate-0"} `} xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 9c.852 0 1.297 .986 .783 1.623l-.076 .084l-6 6a1 1 0 0 1 -1.32 .083l-.094 -.083l-6 -6l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057v-.118l.005 -.058l.009 -.06l.01 -.052l.032 -.108l.027 -.067l.07 -.132l.065 -.09l.073 -.081l.094 -.083l.077 -.054l.096 -.054l.036 -.017l.067 -.027l.108 -.032l.053 -.01l.06 -.01l.057 -.004l12.059 -.002z" stroke-width="0" fill="currentColor" /></svg></li>
                 <div>
                     <li class={`flex text-white transition-all ${mew && "px-4 py-2.5"}`}><a href="/biografia" className="text-sm">{mew && "Biografía"}</a></li>
@@ -26,7 +27,7 @@ export const MobileHeader = () => {
                 <li class="px-4 py-5 text-white"><a href="/noticias">Noticias</a></li>
                 <li onClick={() => setQs(!qs)} class="px-4 py-5 text-white flex gap-2">Quiénes somos<svg className={`mt-1 transition-transform transform duration-200 rotate-180 ${qs && "rotate-0"} `} xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 9c.852 0 1.297 .986 .783 1.623l-.076 .084l-6 6a1 1 0 0 1 -1.32 .083l-.094 -.083l-6 -6l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057v-.118l.005 -.058l.009 -.06l.01 -.052l.032 -.108l.027 -.067l.07 -.132l.065 -.09l.073 -.081l.094 -.083l.077 -.054l.096 -.054l.036 -.017l.067 -.027l.108 -.032l.053 -.01l.06 -.01l.057 -.004l12.059 -.002z" stroke-width="0" fill="currentColor" /></svg></li>
                 <div>
-                    <li class={`flex text-white transition-all ${qs && "px-4 py-2.5"}`}><a href="/quienes-somos" className="text-sm">{qs && "Alianzas"}</a></li>
+                    <li class={`flex text-white transition-all ${qs && "px-4 py-2.5"}`}><a className="text-sm">{qs && "Próximamente"}</a></li>
                 </div>
             </ul>
             <img

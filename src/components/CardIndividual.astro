@@ -3,11 +3,10 @@ import { Image } from "astro:assets";
 const { title, src, href } = Astro.props
 ---
 
-<div class={`${title == "Manuelita, ¿Dónde vas?" && "shadow-[inset_0_0_0_3px_rgba(220,38,38,1)]"} relative bg-white p-4 w-full rounded-lg lg:w-[17rem]`}>
+<div class={`${title == "Manuelita, ¿Dónde vas?" && "shadow-[inset_0_0_0_3px_rgba(220,38,38,1)]"} relative bg-white p-4 w-full md:w-max rounded-lg lg:w-[17rem]`}>
     <div class="overflow-hidden">
         <a class={`flex h-60 ${title == "Quiénes somos" && "cursor-context-menu"}`} onclick={title == "El archivo de María Elena" || title == "Quiénes somos" || title == "Alianzas" ? "return false" : ""} href={href}>
-            {title != "Jornadas Académicas Nacionales" && <Image src={src} alt="card" class="transition-all duration-700 hover:scale-125 hover:brightness-75 object-cover" />}
-            {title == "Jornadas Académicas Nacionales" && <Image src={src} alt="card" class="transition-all duration-700 hover:scale-125 hover:brightness-75 object-fill full" />}
+            {title == "Jornadas Académicas Nacionales" && <Image src={src} alt="card" class="transition-all duration-700 hover:scale-125 hover:brightness-75 object-fill w-full" />}
         </a>
     </div>
     <div class="text-black grid justify-center my-8 gap-4">
