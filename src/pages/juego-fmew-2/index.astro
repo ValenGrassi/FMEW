@@ -1,0 +1,36 @@
+---
+import Layout from "../../layouts/Layout.astro"
+import Footer from "../../layouts/Footer.astro"
+import '@fontsource/playfair-display';
+import { Image } from "astro:assets";
+import juego1 from "../../assets/juego/juego(1).png"
+import juego2 from "../../assets/juego/juego-2.png"
+import juego3 from "../../assets/juego/juego(2).png"
+import juego4 from "../../assets/juego/juego-4.png"
+import interes5 from "../../assets/interes5.png"
+import interes6 from "../../assets/interes6.png"
+---
+
+<Layout title="Interés Cultural - FMEW">
+    <div class="my-20 md:mt-0 mx-10 lg:mx-0">
+        <h1 class="text-center font text-4xl">Juego FMEW</h1>
+        <div class="md:max-w-6xl m-auto my-8 lg:px-0">
+            <div class="flex flex-col md:flex-row gap-5 mt-4">
+                <Image src={juego1} alt="interes1" class="md:w-1/2 rounded-lg"/>
+                <Image src={juego3} alt="interes1" class="md:w-1/2 rounded-lg"/>
+            </div>
+            <p class="mt-4 font-normal">Un juego interactivo para niños, basado en el libro "Manuelita, ¿Dónde vas?" de María Elena Walsh, donde los jugadores acompañarán a Manuelita la tortuga en un emocionante viaje por el mundo. <br><br> A través de divertidos desafíos y actividades, los niños ayudarán a Manuelita a superar obstáculos y avanzar en cada etapa de su aventura. Con un enfoque educativo y entretenido, el juego invita a los más pequeños a explorar, aprender y divertirse mientras viajan junto a Manuelita.
+            </p>
+            <p class="mt-4 text-xl"><b><a class="underline" target="_blank" href="https://juego.fundacionmariaelenawalsh.com/">¡Hacé click acá!</a></b> </p>
+        </div>
+    </div>
+    <Footer/>
+</Layout>
+<style>
+    .font{
+        font-family: "playfair display", sans-serif;
+    }
+    li{
+        font-weight: 300 !important;
+    }
+</style>

@@ -1,0 +1,47 @@
+---
+import { Image } from "astro:assets"
+import Maria404 from "../assets/saraIndex.png"
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página no encontrada - FMEW</title>
+</head>
+<body>
+    <div>
+        <Image src={Maria404} alt="Maria Elena 404" />
+    </div>
+    <div class="flex flex-col items-center">
+        <h1 class="text-white" >404!</h1>
+        <h2 class="text-2xl">Esta página no existe</h2>
+        <a href="/"><h3 class="text-center border-2 rounded w-fit py-3 px-6 mt-6 text-md font-semibold">Volver a inicio</h3></a>
+    </div>
+</body>
+</html>
+<style>
+    body{
+        background-color: #231F20;
+        color: #FFFFFF;
+        display: grid;
+        place-content: center;
+        height: 100vh;
+        grid-auto-flow: column;
+        gap: 6rem;
+        cursor: context-menu;
+    }
+    h1{
+        font-size: 15rem;
+        height: 20rem;
+    }
+    h2{
+        font-size: 32px;
+    }
+    h3:hover{
+        color: black;
+        background-color: #FFFFFF;
+        transition: all .2s;
+    }
+</style>

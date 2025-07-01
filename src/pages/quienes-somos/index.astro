@@ -1,0 +1,150 @@
+---
+import {Autoridades, Autoridades2} from "../../components/react/Autoridades"
+import Qs from "../../assets/qs.jpg"
+import Qs2 from "../../assets/qs2.jpg"
+import Alianza1 from "../../assets/itau.png"
+import Alianza2 from "../../assets/alianzas1.png"
+import Alianza3 from "../../assets/bunge.png"
+import Alianza4 from "../../assets/sadaic.jpg"
+import { Image } from "astro:assets";
+import Footer from "../../layouts/Footer.astro"
+import Header from "../../layouts/Header.astro"
+import '@fontsource/playfair-display';
+import '@fontsource/poppins';
+import "@fontsource/poppins/200.css"
+
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/image.png" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+		<meta name="description" content="Se crea la Fundación María Elena Walsh por iniciativa de Sara Facio en gratitud por el legado recibido de su gran amiga y compañera de toda una vida.">
+		<link rel="canonical" href="https://web.archive.org/web/20231111235619/https://fundacionmariaelenawalsh.com/">
+		<meta name="generator" content={Astro.generator} />
+		<title>Quiénes somos - FMEW</title>
+	</head>
+	<body>
+		<Header/>
+        <div class="absolute top-0 -z-10 w-full">
+            <Image class="relative top-0 h-96 md:h-screen w-full object-cover" src={Qs} alt="Fundación María Elena Walsh"></Image>
+            <div class="flex flex-col md:flex-row row-span-2 items-center justify-center py-20 max-w-6xl m-auto px-10 xl:px-0 gap-10">
+                <div class="flex-1 grid justify-end items-end">
+                    <h1 class="font text-4xl">Propósitos</h1>
+                    <div class="my-10 text-md grid gap-3">
+                        <p>La Fundación María Elena Walsh fue establecida por Sara Facio como un gesto de agradecimiento por el legado dejado por su entrañable amiga y compañera de toda la vida. Su principal propósito es conservar y promover la obra literaria y musical de la destacada artista argentina.</p>
+                        <p>Se destacará especialmente la dimensión ética y humanitaria de María Elena Walsh, así como su constante respaldo a la formación y perfeccionamiento de individuos con vocación artística en los campos de la música, la literatura y la fotografía.</p>
+                        <p>La Fundación se compromete prioritariamente a preservar la memoria de María Elena Walsh mediante eventos públicos que rindan homenaje a su valioso aporte al arte y la cultura del país.</p>					
+                    </p></div>
+                </div>
+                <div class="flex-1 flex justify-center">
+                    <div class="w-fit">
+                        <Image src={Qs2} alt='Consejo FMEW' />
+                        <span class="flex justify-end text-xs font">Foto: Consejo FMEW</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row row-span-2 md:items-center justify-center py-20 max-w-6xl m-auto px-10 xl:px-0 gap-10 ">
+                <div class="grid justify-start items-end">
+                    <h2 class="font text-4xl">Autoridades 2024</h2>
+                    <div class="my-10 text-md grid gap-3">
+                        <p>Sara Facio -<b> Presidente</b></p>
+                        <p><b>Consejo de Administración</b><br>
+                            Sara Facio <br>
+                            Graciela García Romero <br>
+                            Silvia Mangialardi <br>
+                            María Isabel Murgier <br>
+                            Felicitas Luna <br>
+                        </p>
+                        <p><b>Consejo Asesor</b><br>
+                            Diego Bashkansky <br>
+                            Ezequiel Díaz Ortiz <br>
+                            Guillermo Gasió <br>
+                            Leila Guerriero <br>
+                            Mariano Rodríguez <br>
+                        </p>
+                    </p>
+                    </div>
+                </div>
+                <div class="hidden md:grid flex-1 gallery w-full js-flickity h-56 md:h-[30rem]" data-flickity='{"pageDots": false, "contain": true, "autoPlay": true }' data-flickity-options='{ "wrapAround": true }'>
+                    <div class="gallery-cell first h-max"></div>
+                    <div class="gallery-cell second"></div>
+                    <div class="gallery-cell third"></div>
+                    <div class="gallery-cell fourth"></div>
+                    <div class="gallery-cell fifth"></div>
+                    <div class="gallery-cell sixth"></div>
+                </div>
+            </div>
+            <Autoridades client:idle />
+            <Autoridades2 client:idle />
+            <div class="max-w-6xl m-auto mb-20 px-10 xl:p-0" id="alianzas">
+                <h3 class="font text-4xl">Alianzas</h3>
+                <div class="flex items-center md:items-start flex-col md:flex-row md:h-24">
+                    <Image class="w-60 mt-6" src={Alianza1} alt="a" />
+                    <Image class="w-60 mt-6"  src={Alianza2} alt="a" />
+                    <Image class="w-60 mt-6"  src={Alianza3} alt="a" />
+                    <Image class="w-60 mt-6"  src={Alianza4} alt="a" />
+                </div>
+            </div>
+            <Footer/>
+        </div>
+	</body>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</html>
+
+<script is:inline>
+	document.fonts.ready.then(() => {
+		document.body.style.opacity = '1';
+	})
+</script>
+
+<style>
+    .font{
+        font-family: "playfair display", sans-serif;
+    }
+    body {
+		opacity: 0;
+		overflow-x: hidden;
+		font-family: "Poppins", sans-serif;
+		font-weight: 200;
+	}
+	html {
+		background: #231F20;
+		color: white;
+	}
+	li {
+		font-family: "Poppins", sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+	}
+    .first {
+        background: url(../../assets/qsgallery6.jpg);
+    }
+    .second {
+        background: url(../../assets/qsgallery1.jpg);
+    }
+    .third {
+        background: url(../../assets/qsgallery2.jpg);
+    }
+    .fourth {
+        background: url(../../assets/qsgallery4.jpg);
+    }
+    .fifth {
+        background: url(../../assets/qsgallery5.jpg);
+    }
+    .sixth {
+        background: url(../../assets/qsgallery3.jpg);
+    }
+    .gallery-cell {
+        width: 100%;
+        height: 100%;
+        margin-right: 10px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+</style> -->

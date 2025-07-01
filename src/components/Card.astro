@@ -1,0 +1,19 @@
+---
+import { Image } from "astro:assets";
+const { title, src, href } = Astro.props
+---
+
+<div class={`relative bg-white p-4 w-full rounded-lg lg:w-[17rem]`}>
+    <div class="overflow-hidden">
+        <a class={`flex h-60 ${title == "Quiénes somos" && "cursor-context-menu"}`} onclick={title == "El archivo de María Elena" || title == "Quiénes somos" || title == "Alianzas" ? "return false" : ""} href={href}>
+            <Image src={src} alt="card" class="transition-all duration-700 hover:scale-125 hover:brightness-75 object-cover w-full" />
+        </a>
+    </div>
+    <div class="text-black grid justify-center my-8 gap-4">
+        <p class="font-bold text-sm m-auto relative">
+            {title}
+        </p>
+        {title != "Manuelita, ¿Dónde vas?" && <a href={href} onclick={title == "El archivo de María Elena" || title == "Quiénes somos" || title == "Alianzas" ? "return false" : ""} class="m-auto text-sm font-bold border-black px-6 py-2 rounded border-2 hover:brightness-75">{title != "El archivo de María Elena" && title != "Quiénes somos" && title != "Alianzas" ? "VER MÁS" : "Proximamente"}</a>}
+        {title == "Manuelita, ¿Dónde vas?" && <a href={href} class="m-auto text-sm font-bold border-black px-6 py-2 rounded border-2 hover:brightness-75">JUGAR</a>}
+    </div>
+</div>

@@ -1,0 +1,16 @@
+[33m3ba0e17[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{0}: commit: ultimo
+[33m0899847[m[33m ([m[1;32mmain[m[33m)[m HEAD@{1}: reset: moving to 0899847
+[33ma8a483a[m HEAD@{2}: checkout: moving from main to master
+[33m0899847[m[33m ([m[1;32mmain[m[33m)[m HEAD@{3}: reset: moving to HEAD~3
+[33ma8a483a[m HEAD@{4}: checkout: moving from master to main
+[33ma8a483a[m HEAD@{5}: rebase (finish): returning to refs/heads/master
+[33ma8a483a[m HEAD@{6}: rebase (start): checkout HEAD~4
+[33ma8a483a[m HEAD@{7}: rebase (finish): returning to refs/heads/master
+[33ma8a483a[m HEAD@{8}: rebase (start): checkout HEAD~4
+[33ma8a483a[m HEAD@{9}: rebase (abort): updating HEAD
+[33ma8a483a[m HEAD@{10}: rebase (abort): updating HEAD
+[33ma8a483a[m HEAD@{11}: commit: 30/6
+[33m0767146[m HEAD@{12}: commit: 30/6
+[33m1cb7d95[m HEAD@{13}: commit: 30/6
+[33m0899847[m[33m ([m[1;32mmain[m[33m)[m HEAD@{14}: commit: ultimos cambios
+[33m7122bc7[m HEAD@{15}: commit (initial): version final

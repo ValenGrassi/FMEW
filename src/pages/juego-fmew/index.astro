@@ -1,0 +1,20 @@
+---
+import Layout from "../../layouts/Layout.astro"
+import Footer from "../../layouts/Footer.astro"
+import '@fontsource/playfair-display';
+import { Iframe } from "../../components/react/Iframe";
+
+---
+
+<Layout title="María Elena en la comunidad - FMEW">
+    <div class="my-20 md:mt-0 mx-1 sm:mx-10 lg:mx-0">
+        <h1 class="text-center font text-4xl">Juego FMEW</h1>
+        <Iframe client:visible />
+    </div>
+    <Footer/>
+</Layout>
+<style>
+    .font{
+        font-family: "playfair display", sans-serif;
+    }    
+</style>

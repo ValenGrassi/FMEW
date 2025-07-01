@@ -1,0 +1,101 @@
+---
+import Layout from "../../layouts/Layout.astro"
+import Footer from "../../layouts/Footer.astro"
+import '@fontsource/playfair-display';
+import { Image } from "astro:assets";
+import manuelita from "../../assets/manuelita.png"
+import premios2 from "../../assets/premios2.png"
+import premios3 from "../../assets/premios3.png"
+import premionoticia from "../../assets/premionoticia.jpg"
+import saranoticia from "../../assets/saranoticia.jpg"
+---
+
+<Layout title="Blog - FMEW">
+    <div class="my-20 md:mt-0 mx-10 lg:mx-0">
+        <h1 class="text-center font text-4xl">Blog</h1>
+        <!-- <div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 lg:px-0">
+            <div class="bg-white rounded-sm md:w-1/2">
+                <div class="overflow-hidden rounded-t-sm">
+                    <a class="flex h-[30rem]" href="/blog/concurso-infantil">
+                        <Image src={manuelita} alt="card" class="transition-all duration-700 hover:scale-110 hover:brightness-75 object-cover" />
+                    </a>
+                </div>
+                <div class="text-black grid my-8 mx-4 gap-4">
+                    <a href="/blog/concurso-infantil" class="font-bold text-md text-gray-800">CONCURSO INFANTIL: ¡Festejamos los 60 años de Manuelita!</a>
+                    <p class="text-sm text-gray-600 font-normal">La Fundación María Elena Walsh convoca al Premio del año 2023 dedicado a la disciplina Fotografía.</p>
+                    <a href="/blog/concurso-infantil" class="text-sm font-bold border-black hover:brightness-75">LEER MAS -></a>
+                </div>
+            </div>
+            <div class="bg-white rounded-sm md:w-1/2">
+                <div class="overflow-hidden rounded-t-sm">
+                    <a class="flex h-[30rem]" href="/blog/interes-cultural">
+                        <Image src={premios2} alt="card" class="transition-all duration-700 hover:scale-110 hover:brightness-75 object-cover" />
+                    </a>
+                </div>
+                <div class="text-black grid my-8 mx-4 gap-4">
+                    <a href="/blog/interes-cultural" class="font-bold text-md text-gray-800">LA LEGISLATURA PORTEÑA DECLARA DE INTERÉS CULTURAL A LA FUNDACIÓN MARÍA ELENA WALSH</a>
+                    <p class="text-sm text-gray-600 font-normal">La Fundación María Elena Walsh convoca al Premio del año 2023 dedicado a la disciplina Fotografía.</p>
+                    <a href="/blog/interes-cultural" class="text-sm font-bold border-black hover:brightness-75">LEER MAS -></a>
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 lg:px-0">
+            <div class="bg-white rounded-sm md:w-1/2">
+                <div class="overflow-hidden rounded-t-sm">
+                    <a class="flex h-[30rem]" href="/blog/mundial-2022">
+                        <Image src={premios3} alt="card" class="transition-all duration-700 hover:scale-110 hover:brightness-75 object-cover" />
+                    </a>
+                </div>
+                <div class="text-black grid my-8 mx-4 gap-4">
+                    <a href="/blog/mundial-2022" class="font-bold text-md text-gray-800">MUNDIAL 2022: Fotos de una pasión</a>
+                    <p class="text-sm text-gray-600 font-normal">La Fundación María Elena Walsh convoca al Premio del año 2023 dedicado a la disciplina Fotografía.</p>
+                    <a href="/blog/mundial-2022" class="text-sm font-bold border-black hover:brightness-75">LEER MAS -></a>
+                </div>
+            </div>
+            <div class="bg-white rounded-sm md:w-1/2">
+                <div class="overflow-hidden rounded-t-sm">
+                    <a class="flex h-[30rem]" href="/blog/entrega-premio">
+                        <Image src={premionoticia} alt="card" class="transition-all duration-700 hover:scale-110 hover:brightness-75 object-cover" />
+                    </a>
+                </div>
+                <div class="text-black grid my-8 mx-4 gap-4">
+                    <a href="/blog/entrega-premio" class="font-bold text-md text-gray-800">Entrega de Premio – Fundación María Elena Walsh</a>
+                    <p class="text-sm text-gray-600 font-normal">El 30 de septiembre se formalizó la entrega del Premio Fundación María Elena Walsh 2020.</p>
+                    <a href="/blog/entrega-premio" class="text-sm font-bold border-black hover:brightness-75">LEER MAS -></a>
+                </div>
+            </div>
+        </div> -->
+        <div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 lg:px-0">
+            <div class="bg-white rounded-sm md:w-1/2">
+                <div class="overflow-hidden rounded-t-sm">
+                    <a class="flex h-[30rem]" href="/blog/juguemos-en-el-mundo">
+                        <Image src={saranoticia} alt="card" class="transition-all duration-700 hover:scale-110 hover:brightness-75 object-cover" />
+                    </a>
+                </div>
+                <div class="text-black grid my-8 mx-4 gap-4">
+                    <a href="/blog/juguemos-en-el-mundo" class="font-bold text-md text-gray-800">En el set de “Juguemos en el Mundo”</a>
+                    <p class="text-sm text-gray-600 font-normal">Era el año 1971 y María Elena había comenzado una aventura nueva que junto a María Herminia Avellaneda habían soñado desde hacía bastante tiempo: filmar.</p>
+                    <a href="/blog/juguemos-en-el-mundo" class="text-sm font-bold border-black hover:brightness-75">LEER MAS -></a>
+                </div>
+            </div>
+            <div class="bg-white rounded-sm md:w-1/2 hidden md:flex md:invisible">
+                <div class="overflow-hidden rounded-t-sm">
+                    <a class="flex h-[30rem]" href="">
+                        <Image src={premionoticia} alt="card" class="transition-all duration-700 hover:scale-110 hover:brightness-75 object-cover" />
+                    </a>
+                </div>
+                <div class="text-black grid my-8 mx-4 gap-4">
+                    <a href="" class="font-bold text-md text-gray-800">Entrega de Premio – Fundación María Elena Walsh</a>
+                    <p class="text-sm text-gray-600 font-normal">El 30 de septiembre se formalizó la entrega del Premio Fundación María Elena Walsh 2020.</p>
+                    <a href="" class="text-sm font-bold border-black hover:brightness-75">LEER MAS -></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <Footer/>
+</Layout>
+<style>
+    .font{
+        font-family: "playfair display", sans-serif;
+    }
+</style>

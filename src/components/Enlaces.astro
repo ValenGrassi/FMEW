@@ -1,0 +1,26 @@
+---
+import Card from "../components/Card.astro"
+import noticias from "../assets/noticias.png"
+import premios from "../assets/premios.png"
+import comunidad from "../assets/comunidad.png"
+import juego from "../assets/juego/juego-cuadrado.png"
+import chicos from "../assets/7 (1).jpg"
+import manuelita from "../assets/manuelita.png"
+import viva from "../assets/viva.png"
+import somos from "../assets/somos.png"
+import alianzas from "../assets/alianzas.jpg"
+---
+
+<div class="pb-20 px-10 xl:px-0">
+    <div class="flex flex-col md:flex-row items-center max-w-6xl m-auto gap-5 mt-8">
+        <Card title="Premio Maria Elena Walsh" src={premios} href="/premio-fmew" />
+        <Card title="Premio infantil Maria Elena Walsh" src={chicos} href="/premio-infantil-fmew"/>	
+        <!-- <Card title="Noticias" src={noticias} href="/blog"/>	 -->
+        <Card title="Manuelita, ¿Dónde vas?" src={juego} href="/juego-fmew" />
+        <Card title="María Elena en la comunidad" src={comunidad} href="/maria-elena-y-la-comunidad" />
+    </div>
+    <!-- <div class="flex flex-col md:flex-row items-center max-w-6xl m-auto gap-5 mt-8">
+        <Card title="Quiénes somos" src={somos} href="/quienes-somos" />
+        <Card title="Alianzas" src={alianzas} href="/quienes-somos/#alianzas" />
+    </div> -->
+</div>

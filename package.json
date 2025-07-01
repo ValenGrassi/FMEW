@@ -1,0 +1,22 @@
+{
+  "name": "fmew",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^3.0.1",
+    "@astrojs/tailwind": "^5.0.3",
+    "@fontsource/playfair-display": "^5.0.18",
+    "@fontsource/poppins": "^5.0.8",
+    "@fontsource/roboto": "^5.1.1",
+    "astro": "^4.0.6",
+    "preact": "^10.19.3",
+    "tailwindcss": "^3.3.7"
+  }
+}

@@ -1,0 +1,21 @@
+---
+import Layout from "../../layouts/Layout.astro"
+import Footer from "../../layouts/Footer.astro"
+import '@fontsource/playfair-display';
+import {Obras} from "../../components/react/Obras"
+---
+
+<Layout title="Obra - FMEW">
+    <div class="my-20 md:mt-0 mx-10 lg:mx-0 flex flex-col">
+        <Obras client:idle/>
+    </div>
+    <Footer/>
+</Layout>
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+    .font{
+        font-family: "playfair display", sans-serif;
+    }
+</style>

@@ -1,0 +1,32 @@
+---
+import { Image } from 'astro:assets';
+import SaraIndex from "../assets/saraIndex.png"
+import '@fontsource/playfair-display';
+---
+
+<div class="flex flex-col md:flex-row row-span-2 items-center justify-center py-20 max-w-6xl m-auto px-10 xl:px-0 gap-10 xl:gap-0">
+    <div class="flex-1 grid justify-end items-end">
+        <h1 class="font text-4xl">Acerca de la Fundación</h1>
+        <div class="my-10 text-md grid gap-3">
+            <p>Se crea la Fundación María Elena Walsh por iniciativa de Sara Facio en gratitud por el legado recibido de su gran amiga y compañera de toda una vida.</p>
+            <p>El objetivo es preservar y difundir la obra literaria y musical de la inigualable artista argentina.</p>
+            <p>Se pondrá énfasis en señalar especialmente sus atributos éticos y humanitarios, así como su permanente apoyo al estudio y al perfeccionamiento para personas con vocación artística para la música, la literatura y la fotografía.</p>					
+            <p>Será prioridad de la Fundación María Elena Walsh resguardar su memoria por medio de actos públicos que recuerden su aporte al arte y a la cultura del país.</p>
+        </p></div>
+        <span class="font">
+            Sara Facio
+        </span>
+    </div>
+    <div class="flex-1 flex justify-center">
+        <div class="w-fit">
+            <Image src={SaraIndex} alt='Sara Facio' />
+            <span class="flex justify-end text-xs font">Foto: Sara Facio</span>
+        </div>
+    </div>
+</div>
+
+<style>
+	.font{
+		font-family: "Playfair Display", sans-serif;
+	}
+</style>

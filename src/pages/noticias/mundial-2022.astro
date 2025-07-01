@@ -1,0 +1,92 @@
+---
+import Layout from "../../layouts/Layout.astro"
+import Footer from "../../layouts/Footer.astro"
+import '@fontsource/playfair-display';
+import { Image } from "astro:assets";
+import premioblog from "../../assets/premioblo.png"
+---
+
+<Layout title="Mundial 2022 - FMEW">
+    <div class="my-20 md:mt-0 mx-10 lg:mx-0">
+        <h1 class="text-center font text-4xl">Mundial 2022, fotos de una pasión.</h1>
+        <div class="md:max-w-6xl m-auto my-8 lg:px-0">
+            <Image class="mt-4 m-auto" src={premioblog} alt="manuelita" />
+            <p class="font-semibold mt-4">Bases y condiciones:</p>
+            <p>Con un premio de 1000 dólares y la Obra de Arte emblema, la Fundación María Elena Walsh convoca al Premio del año 2023 dedicado a la disciplina Fotografía.</p>
+
+            <p class="font-semibold mt-4">Disciplina</p>
+            <p>Fotografía</p>
+            <ul class="list-disc list-outside ml-5 mt-2">
+                <li>Deberá presentarse -de manera virtual- una fotografía que exprese lo vivido durante este mundial 2022, la alegría, la ansiedad, los festejos en las casas y en las calles, la unión de todos los argentinos apoyando al equipo que nos convirtió en campeones mundiales.</li>
+                <li>Las fotos pueden haber sido tomadas en cualquier lugar del mundo y con cualquier dispositivo.</li>
+            </ul>
+
+            <p class="font-semibold mt-4">Participantes</p>
+            <p>Argentinos y/o extranjeros con residencia legal en el país por más de 5 años, sin límite de edad, incluyendo a fotógrafos profesionales y aficionados. Los menores deberán presentar autorización de sus padres. La participación es libre y gratuita.</p>
+
+            <p class="font-semibold mt-4">Fotografías</p>
+            <p>Las fotografías no deberán tener derechos reservados, ni estar en concursos con dictámenes pendientes.</p>
+
+            <p class="font-semibold mt-4">Premio</p>
+            <ul class="list-disc list-outside ml-5 mt-2">
+                <li>Equivalente en pesos a U$S 1.000. (Mil dólares EEUU)</li>
+                <li>Obra de Arte de Marina Dogliotti, emblema de la FMEW.</li>
+                <li>El jurado podrá otorgar menciones si lo considerase conveniente</li>
+            </ul>
+
+            <p class="font-semibold mt-4">Jurado</p>
+            <p>El Jurado estará compuesto por 3 miembros:</p>
+            <ul class="list-disc list-outside ml-5 mt-2">
+                <li>Gonzalo Bonadeo
+                </li>
+                <li>Graciela García Romero
+                </li>
+                <li>Silvia Mangialardi
+                </li>
+            </ul>
+            
+            <p class="font-semibold mt-4">Calendario</p>
+            <ul class="list-disc list-outside ml-5 mt-2">
+                <li><b>Período de Toma:</b> las fotografías deben haber sido realizadas entre noviembre y diciembre 2022 durante el mundial y sus festejos.</li>
+                <li><b>Recepción de fotografías:</b> únicamente por mail desde el 1 hasta el 15 de marzo de 2023.                </li>
+                <li><b>Comunicación del resultado:</b> a partir del 31 de marzo de 2023 se notificará al ganador, telefónicamente y por correo argentino. Se publicará en la web y redes de la FMEW. Posteriormente se dará a conocer a la prensa.
+                </li>
+                <li><b>Entrega de premios:</b> lugar y fecha a designar.
+                </li>
+            </ul>
+
+            <p class="font-semibold mt-4">Modo de Entrega</p>
+            <p>Se enviará a <span class="text-xs">premio@fundacionmariaelenawalsh.com</span></p>
+            <ul class="list-disc list-outside ml-5 mt-2">
+                <li>Una foto en formato JPG
+                </li>
+                <li>Un archivo Word con los datos personales e información de contacto: Nombre completo, DNI, edad, domicilio, teléfono, mail.
+                </li>
+                <li>Los artistas extranjeros residentes en Argentina que deseen postularse deben acreditar un mínimo de cinco años de residencia en el país.
+                </li>
+            </ul>
+
+            <p class="font-semibold mt-4">Derechos de uso</p>
+            <p>El autor premiado y los que obtengan menciones ceden a la Fundación María Elena Walsh los derechos de uso de sus imágenes, por un plazo no mayor a 1 año, exclusivamente para la difusión del evento (prensa escrita, TV, redes sociales, mails), conservando el autor, todos los derechos sobre las mismas de acuerdo a la ley 11.723 de propiedad intelectual.
+            </p>
+            
+            <p class="font-semibold mt-4">Otros requisitos</p>
+            <ul class="list-disc list-outside ml-5 mt-2">
+                <li>La participación en esta convocatoria supone la aceptación total de sus bases.
+                </li>
+                <li>Los casos no previstos en ellas serán resueltos por la FMEW.
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <Footer/>
+</Layout>
+<style>
+    .font{
+        font-family: "playfair display", sans-serif;
+    }
+    li{
+        font-weight: 300 !important;
+    }
+</style>

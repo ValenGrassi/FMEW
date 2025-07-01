@@ -1,0 +1,24 @@
+---
+import Card from "../components/Card.astro"
+import noticias from "../assets/noticias.png"
+import blogpremio from "../assets/blogpremio1.jpg"
+import somos from "../assets/somos.png"
+import alianzas from "../assets/alianzas.jpg"
+import archivo from "../assets/archivo.png"
+import jornadas from "../assets/rupturaRecortado.jpeg"
+import CardIndividual from "./CardIndividual.astro"
+---
+
+<div class="pb-20 px-10 xl:px-0">
+    <div class="flex flex-col md:flex-row items-center max-w-6xl m-auto gap-5 mt-8">
+        <Card title="Noticias" src={noticias} href="/noticias"/>	
+        <Card title="Blog" src={blogpremio} href="/blog"/>	
+        <Card title="El archivo de María Elena" src={archivo} href="https://archivo.fundacionmariaelenawalsh.com.ar/pawtucket/" />
+        <Card title="Quiénes somos" src={alianzas} href="/quienes-somos/#alianzas" />
+    </div>
+    <!-- <div class="flex flex-col md:flex-row items-center max-w-6xl m-auto gap-5 mt-8">
+        <CardIndividual title="Jornadas Académicas Nacionales" src={jornadas} href="/noticias/jornadas"/>	
+    </div> -->
+        <div class="flex flex-col md:flex-row items-center max-w-6xl m-auto gap-5 mt-8">
+    </div>
+</div>

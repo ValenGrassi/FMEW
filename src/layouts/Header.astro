@@ -1,0 +1,42 @@
+---
+import { Image } from "astro:assets";
+import { HeaderButton } from "../components/react/HeaderButton";
+const { pathname } = Astro.url
+import LogoBlanco from "../assets/logo-blanco.svg";
+import LogoSinFondo from "../assets/logosinfondo2.png";
+import { MobileHeader } from "./MobileHeader";
+
+---
+
+<header class="flex justify-between md:px-10 lg:px-32 md:pt-4">
+    <div>
+        <Image class="py-2 hidden md:flex invert w-56" src={LogoSinFondo} alt="Logo Fundacion Maria Elena Walsh" />
+    </div>
+    <ul class="flex h-fit">
+        <div class="hidden md:flex">
+            <li class="px-4 py-2"><a href="/">Inicio</a></li>
+            <HeaderButton client:idle href={"/premio-fmew"} name={"fundacion"} pathname={pathname}>
+                La Fundación
+            </HeaderButton>
+            <HeaderButton client:idle href={"/premio-infantil-fmew"} name={"infancia"} pathname={pathname}>
+                Infancia
+            </HeaderButton>
+            <HeaderButton client:idle href={"/biografia"} name={"mew"} pathname={pathname}>
+                María Elena Walsh
+            </HeaderButton>
+            <li class="px-4 py-2"><a href="/noticias">Noticias</a></li>
+            <HeaderButton client:idle href={"/quienes-somos"} name={"qs"} pathname={pathname}>
+                Quiénes somos
+            </HeaderButton>
+        </div>
+        <MobileHeader client:idle/>
+    </ul>
+</header>
+
+<style>
+    li {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+	}
+</style>

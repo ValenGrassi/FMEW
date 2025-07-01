@@ -1,0 +1,52 @@
+---
+import Header from "./Header.astro";
+import '@fontsource/poppins';
+import "@fontsource/poppins/200.css"
+import "@fontsource/poppins/500.css"
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/image.png" />
+		<meta name="description" content="Se crea la Fundación María Elena Walsh por iniciativa de Sara Facio en gratitud por el legado recibido de su gran amiga y compañera de toda una vida.">
+		<link rel="canonical" href="https://web.archive.org/web/20231111235619/https://fundacionmariaelenawalsh.com/">
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<Header/>
+		<slot />
+	</body>
+</html>
+<script is:inline>
+	document.fonts.ready.then(() => {
+		document.body.style.opacity = '1';
+	})
+</script>
+<style is:global>
+	body {
+		opacity: 0;
+		overflow-x: hidden;
+		font-family: "Poppins", sans-serif;
+		font-weight: 200;
+	}
+	html {
+		background: #231F20;
+		color: white;
+	}
+	li {
+		font-family: "Poppins", sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+	}
+</style>
