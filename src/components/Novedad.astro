@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import Revés from "../assets/reves.jpeg"
 import SaraIndex from "../assets/saraIndex.png"
 import '@fontsource/playfair-display';
 ---
@@ -7,34 +8,47 @@ import '@fontsource/playfair-display';
     <div class="flex flex-col py-20 md:flex-row row-span-2 items-center justify-center max-w-6xl m-auto px-10 xl:px-0 gap-10 mb-20">
         <div class="flex-1 flex justify-center">
             <div class="w-fit">
-                <video src="/videoGracielaComprimido.mp4" class='shadow-2xl shadow-black max-h-[50rem]' controls autoplay muted loop playsinline/>
-                <span class="flex justify-end text-xs font mt-2">Video: Graciela García Romero</span>
+                <Image src={Revés} class='shadow-2xl shadow-black max-h-[50rem]' alt='reino del reves' />
+                <span class="flex justify-end text-xs font mt-2">Foto: Sara Facio</span>
             </div>
         </div>
         <div class="flex-1 grid justify-end items-end">
             <!-- <h1 class="font text-6xl">¡Nuevo Encuentro!</h1> -->
-            <h1 class="font text-4xl">María Elena Walsh, "La Ruptura" Jornadas Académicas Nacionales </h1>
+            <h1 class="font text-4xl">Premio Estudiantil 2025 <br> El Reino del Revés - 60 años</h1>
             <div class="my-10 text-md grid gap-3">
-                <p>Universidades y centros de investigación de todo el país llevan adelante estas jornadas académicas nacionales en un espacio de reflexión sobre María Elena Walsh, con clases magistrales, seminarios, ponencias y experiencias artísticas.</p>
-                <p>Sala del Tesoro Paul Grossac | Biblioteca Nacional</p>					
-                <p>La exposición se puede visitar del 10 de junio al 3 de agosto de lunes a viernes de 9 a 21hrs y sábados y domingos de 12 a 19hrs.</p>
-                <br>
-                <p>Del 10 al 13 de junio se realizarán recorridos por la exposición:</p>
+                <p class="underline"><b>Categorías</b></p>
                 <ul>
-                   <li class="font-thin">Martes 10 de junio: 17hrs.</li>
-                   <li class="font-thin">Miércoles 11 de junio: 17hrs.</li>
-                   <li class="font-thin">Jueves 12 de junio: 14:30 y 17hrs.</li>
-                   <li class="font-thin">Viernes 13 de junio: 14:30hrs.</li>
-                </ul>
-            </p>
+                    <li class="font-light"><b>1. Nivel Inicial:</b> Producciones plásticas</li>
+                    <li class="font-light"><b>2. Primario:</b> Video</li>
+                    <li class="font-light">- De 1er. a 3er. grado</li>
+                    <li class="font-light">- De 4to. a 7mo. grado</li>
+                    <li class="font-light"><b>3. Secundario:</b> Fotografía</li>
+                </ul>					
+                <br>
+                <p class="underline"><b>Jurados</b></p>
+                <ul>
+                    <li class="font-light"><b>Artes Plásticas:</b></li>
+                    <li class="font-light">Raquel Cané - Ezequiel Díaz Ortiz - Pablo Elías</li>
+                    <br>
+                    <li class="font-light"><b>Videos:</b></li>
+                    <li class="font-light">Maijo D´Amico - Graciela García Romero - Daniel Rivas</li>
+                    <br>
+                    <li class="font-light"><b>Fotografía:</b></li>
+                    <li class="font-light">Elda Harrington - Silvia Mangialardi - Juan Travnik</li>
+                </ul>	
             <br>
-            <a href="/triptico.pdf" download="tríptico.pdf" class="border-2 border-gray-500 w-max p-4 hover:cursor-pointer rounded hover:bg-gray-500">
-                Descargar PDF
-            </a>
+            <div class="flex flex-col md:flex-row gap-4">
+                <a href="basesyformulario.docx" download="Bases y Formulario" class="border-2 border-gray-500 w-max p-4 hover:cursor-pointer rounded hover:bg-gray-500 transition">
+                    Descargar Bases y Formulario
+                </a>
+                <a href="/noticias/premio-infantil-2025" class="border-2 border-gray-500 w-max p-4 hover:cursor-pointer rounded hover:bg-gray-500 transition">
+                    Ir a la noticia
+                </a>
+            </div>
         </div>
 
             <span class="font">
-                Fundación Walsh Facio y Biblioteca Nacional Mariano Moreno
+                Fundación Walsh Facio - Premio Infantil
             </span>
         </div>
     </div>

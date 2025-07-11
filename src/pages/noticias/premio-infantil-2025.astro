@@ -1,0 +1,65 @@
+---
+import Layout from "../../layouts/Layout.astro"
+import Footer from "../../layouts/Footer.astro"
+import '@fontsource/playfair-display';
+import { Image } from "astro:assets";
+import reves from "../../assets/reveslibro.jpeg"
+---
+
+<Layout title="Premio Estudiantil 2025 - FMEW">
+    <div class="my-20 md:mt-0 mx-10 lg:mx-0">
+        <h1 class="text-center font text-4xl">Convocatoria al premio Estudiantil 2025 - "El Reino del Revés"</h1>
+        <div class="md:max-w-6xl m-auto my-8 lg:px-0">
+            <Image class="mt-4 m-auto w-96" src={reves} alt="manuelita" />
+            <br>
+            <br>
+            <p class="text-lg"><b>La Fundación María Elena Walsh – Sara Facio anuncia la convocatoria, bajo el eje temático “El Reino del Revés”.</b><br>El premio está dirigido a instituciones educativas, sociales y culturales, tanto públicas como privadas. La participación será mediante producciones grupales, organizadas en las siguientes categorías:
+            </p>
+
+            <ul class="mt-8">
+                <li class="font-light"><b>1. Nivel Inicial:</b> Producciones plásticas</li>
+                <li class="font-light"><b>2. Primario:</b> Video</li>
+                <li class="font-light">- De 1er. a 3er. grado</li>
+                <li class="font-light">- De 4to. a 7mo. grado</li>
+                <li class="font-light"><b>3. Secundario:</b> Fotografía</li>
+                <p class="mt-2">En todos los casos serán producciones grupales</p>
+            </ul>	
+
+            <p class="mt-4">Cada institución podrá presentar <b>una obra</b>. Las producciones deben estar inspiradas en “El Reino del Revés”.</p>
+
+            <p class="mt-4">El envío se realizará entre el <b>1 y el 5 de septiembre de 2025</b>.
+            </p>
+
+            <p class="mt-4">Las instituciones ganadoras recibirán una colección completa de libros de María Elena Walsh y 25 libros infantiles y para adultos del Grupo Editorial Penguin Random House para la escuela ganadora de cada categoría.</p>
+
+            <p class="mt-4">Los resultados se informarán a partir del <b>29 de septiembre de 2025</b>. 
+            </p>
+
+            <p class="mt-4">La Fundación invita a todas las instituciones a participar del Premio Estudiantil.
+            </p>
+            
+            <br>
+            <br>
+            <div class="flex flex-col md:flex-row gap-4">
+                <a href="/bases.pdf" download="Bases y Condiciones" class="border-2 border-gray-500 w-max p-4 hover:cursor-pointer rounded hover:bg-gray-500 transition">
+                    Descargar Bases y Condiciones
+                </a>
+                <a href="/formulario.docx" download="Formulario" class="border-2 border-gray-500 w-max p-4 hover:cursor-pointer rounded hover:bg-gray-500 transition">
+                    Descargar Formulario 
+                </a>
+            </div>
+
+            <p class="mt-16"><b>Buenos Aires, julio-agosto 2025 </b></p>
+
+        </div>
+    </div>
+    <Footer/>
+</Layout>
+<style>
+    .font{
+        font-family: "playfair display", sans-serif;
+    }
+    li{
+        font-weight: 300 !important;
+    }
+</style>

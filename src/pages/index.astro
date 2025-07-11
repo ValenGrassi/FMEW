@@ -6,6 +6,7 @@ import EnlacesMEW from "../components/EnlacesMEW.astro";
 import EnlacesSara from "../components/EnlacesSara.astro";
 import Enlaces2 from "../components/Enlaces2.astro"
 import { Video } from "../components/react/Video"
+import { Campana } from "../components/react/Campana"
 import Layout from '../layouts/Layout.astro';
 import Footer from "../layouts/Footer.astro";
 import '@fontsource/playfair-display';
@@ -13,6 +14,7 @@ import manuelita from "../assets/manuelita.png"
 import { Image } from "astro:assets";
 import premios2 from "../assets/premios2.png"
 import premios3 from "../assets/premios3.png"
+import reves from "../assets/reves.jpeg"
 import niños from "../assets/7 (1).jpg"
 import logoblack from "../assets/logo black.jpeg"
 import Noticia from "../components/Noticia.astro";
@@ -23,6 +25,7 @@ import Jornadas from "../assets/rupturaRecortado.jpeg"
 <Layout title="FMEW – Fundación María Elena Walsh.">
 	<div class="absolute top-0 -z-10 w-screen h-screen">
 		<Video client:visible/>
+		<!-- <Campana/> -->
 		<About />
 		<Novedad />
 		<h2 class="text-center font text-2xl">Fundación María Elena Walsh - Sara Facio</h2>
@@ -33,21 +36,25 @@ import Jornadas from "../assets/rupturaRecortado.jpeg"
 		<!-- <EnlacesSara/> -->
 		<h2 class="text-center font text-2xl">Otros Enlaces</h2>
 		<Enlaces2/>
-		<h3 class="text-center font text-2xl">Noticias</h3>
+		<h3 id="noticias" class="text-center font text-2xl">Noticias</h3>
 		<div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 px-10 lg:px-0">
+			<Noticia src={reves} href="/noticias/premio-infantil-2025" title="Premio Estudiantil 2025 - El Reino del Revés" description="Premio estudiantil 2025... descripcion" />
 			<Noticia src={Jornadas} href="/noticias/jornadas" title="Jornadas Académicas Nacionales" description="Universidades y centros de investigación de todo el país llevan adelante estas jornadas académicas nacionales en un espacio de reflexión sobre María Elena Walsh." />
-			<Noticia src={logoblack} href="/noticias/nueva-figuracion-fundacion" title="Fundación María Elena Walsh - Sara Facio" description="Nueva figuración Fundación María Elena Walsh - Sara Facio." />
 		</div>
 		<div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 px-10 lg:px-0">
+			<Noticia src={logoblack} href="/noticias/nueva-figuracion-fundacion" title="Fundación María Elena Walsh - Sara Facio" description="Nueva figuración Fundación María Elena Walsh - Sara Facio." />
             <Noticia src={premios3} href="/noticias/premio-bases" title="Premio Fundación María Elena Walsh - Sara Facio 2024" description="La Fundación María Elena Walsh - Sara Facio convoca al Premio del año 2024 dedicado a la disciplina Literatura, novela erótica." />
-			<Noticia src={niños} href="/noticias/premio-infantil-bases" title="Premio infantil Fundación María Elena Walsh - Sara Facio 2024" description="La Fundación María Elena Walsh - Sara Facio convoca al Premio infantil del año 2024 dedicado a la disciplina Literatura, limericks, por los sesenta años de Zoo Loco." />
         </div>
 		
 		<div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 px-10 lg:px-0">
-            <Noticia src={manuelita} href="/noticias/concurso-infantil" title="CONCURSO INFANTIL: ¡Festejamos los 60 años de Manuelita!" description="La Fundación María Elena Walsh convoca al Premio infantil del año 2023 dedicado a la disciplina Arte sustentable." />
-			<Noticia src={premios2} href="/noticias/interes-cultural" title="LA LEGISLATURA PORTEÑA DECLARA DE INTERÉS CULTURAL A LA FUNDACIÓN MARÍA ELENA WALSH" description="La Fundación María Elena Walsh fue reconocida por su labor en la Legislatura Porteña." />
+			<Noticia src={niños} href="/noticias/premio-infantil-bases" title="Premio infantil Fundación María Elena Walsh - Sara Facio 2024" description="La Fundación María Elena Walsh - Sara Facio convoca al Premio infantil del año 2024 dedicado a la disciplina Literatura, limericks, por los sesenta años de Zoo Loco." />
+			<Noticia src={manuelita} href="/noticias/concurso-infantil" title="CONCURSO INFANTIL: ¡Festejamos los 60 años de Manuelita!" description="La Fundación María Elena Walsh convoca al Premio infantil del año 2023 dedicado a la disciplina Arte sustentable." />
 		</div>
 		
+		<div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 px-10 lg:px-0">
+			
+			<Noticia src={premios2} href="/noticias/interes-cultural" title="LA LEGISLATURA PORTEÑA DECLARA DE INTERÉS CULTURAL A LA FUNDACIÓN MARÍA ELENA WALSH" description="La Fundación María Elena Walsh fue reconocida por su labor en la Legislatura Porteña." />
+		</div>
 		<div class="flex justify-center mb-20">
 			<a href="/blog" class="text-sm font-bold border-white px-6 py-2 rounded border-2 hover:brightness-75 duration-150">VER BLOG</a>
 		</div>
@@ -58,5 +65,8 @@ import Jornadas from "../assets/rupturaRecortado.jpeg"
 <style>
 	.font{
 		font-family: "playfair display", sans-serif;
+	}
+	html{
+		scroll-behavior: smooth;
 	}
 </style>

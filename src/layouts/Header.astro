@@ -5,6 +5,7 @@ const { pathname } = Astro.url
 import LogoBlanco from "../assets/logo-blanco.svg";
 import LogoSinFondo from "../assets/logosinfondo2.png";
 import { MobileHeader } from "./MobileHeader";
+import { Campana } from "../components/react/Campana";
 
 ---
 
@@ -28,6 +29,8 @@ import { MobileHeader } from "./MobileHeader";
             <HeaderButton client:idle href={"/quienes-somos"} name={"qs"} pathname={pathname}>
                 Quiénes somos
             </HeaderButton>
+            <li class="px-4 py-2"><a href="https://tiendawalshfacio.com/" target="_blank" >Tienda nube</a></li>
+            <Campana client:idle/>
         </div>
         <MobileHeader client:idle/>
     </ul>
