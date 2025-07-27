@@ -12,13 +12,14 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Título", name: "title", widget: "string" }
-      - { label: "Imagen destacada", name: "image", widget: "image"}
-      - { label: "Contenido", name: "body", widget: "markdown" }
+      - { label: "Título", name: "title", widget: "string", required: true}
+      - { label: "Imagen", name: "image", widget: "image", required: true}
+      - { label: "Contenido", name: "body", widget: "markdown", required: true}
       - label: "Botón"
         name: "boton"
         widget: "object"
         required: false
+        summary: "{{fields.texto}} → {{fields.url}}"
         fields:
           - { label: "Texto del botón", name: "texto", widget: "string" }
           - { label: "Enlace del botón", name: "url", widget: "string" }
