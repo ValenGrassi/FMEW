@@ -1,0 +1,22 @@
+---
+const { title, src, href, description, invisible } = Astro.props
+---
+
+<div class=`${invisible} bg-white rounded-sm md:w-1/2 ${title == "Premio Estudiantil 2025 - El Reino del Revés" && "border-[3px] border-red-700 rounded"}`>
+    <div class="overflow-hidden rounded-t-sm">
+        <a class="flex h-[30rem]" href={href}>
+            <img src={src} alt="imagen de noticia" class="transition-all duration-700 hover:scale-110 hover:brightness-75 object-cover" />
+        </a>
+    </div>
+    {title != "Premio Estudiantil 2025 - El Reino del Revés" && <div class="text-black grid my-8 mx-4 gap-4">
+        <a href={href} class="font-bold text-md text-gray-800">{title}</a>
+        <p class="text-sm text-gray-600 font-normal">{description}</p>
+        <a href={href} class="text-sm font-bold border-black hover:brightness-75">LEER MAS -></a>
+    </div>}
+    {title == "Premio Estudiantil 2025 - El Reino del Revés" && <div class="text-black grid my-8 mx-4">
+        <p class="text-red-700 font-medium">¡Nuevo!</p>
+        <a href={href} class="font-bold text-md text-gray-800 mt-2">{title}</a>
+        <p class="text-sm text-gray-600 font-normal mt-4">{description}</p>
+        <a href={href} class="text-sm font-bold border-black hover:brightness-75 mt-4">LEER MAS -></a>
+    </div>}
+</div>

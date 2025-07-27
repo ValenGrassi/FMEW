@@ -13,6 +13,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Título", name: "title", widget: "string", required: true}
+      - { label: "Descripción", name: "description", widget: "string", required: true}
       - { label: "Imagen", name: "image", widget: "image", required: true}
       - { label: "Contenido", name: "body", widget: "markdown", required: true}
       - label: "Botón"

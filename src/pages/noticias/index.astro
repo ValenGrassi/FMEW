@@ -13,6 +13,7 @@ import reves from "../../assets/reves.jpeg"
 import Jornadas from "../../assets/rupturaRecortado.jpeg"
 
 import { getCollection } from "astro:content";
+import Noticiamd from "../../components/Noticiamd.astro";
 
 const noticias = await getCollection("noticias");
 ---
@@ -44,7 +45,7 @@ const noticias = await getCollection("noticias");
 
 		<div class="max-w-6xl m-auto grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
 			{noticias.map(noticia => (
-			  <Noticia
+			  <Noticiamd
 				src={noticia.data.image}
 				href={noticia.data.href}
 				title={noticia.data.title}
@@ -52,7 +53,7 @@ const noticias = await getCollection("noticias");
 			  />
 			))}
 		  </div>
-		  
+
 		<Footer/>
 
 </Layout>
