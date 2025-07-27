@@ -4,58 +4,53 @@ import Revés from "../assets/reves.jpeg"
 import SaraIndex from "../assets/saraIndex.png"
 import '@fontsource/playfair-display';
 ---
-<div class="mx-3 sm:mx-10 xl:m-auto max-w-7xl rounded-2xl bg-[#160303]">
-    <div class="flex flex-col py-20 md:flex-row row-span-2 items-center justify-center max-w-6xl m-auto px-10 xl:px-0 gap-10 mb-20">
-        <div class="flex-1 flex justify-center">
-            <div class="w-fit">
-                <Image src={Revés} class='shadow-2xl shadow-black max-h-[50rem]' alt='reino del reves' />
-                <span class="flex justify-end text-xs font mt-2">Foto: Sara Facio</span>
-            </div>
-        </div>
-        <div class="flex-1 grid justify-end items-end">
-            <!-- <h1 class="font text-6xl">¡Nuevo Encuentro!</h1> -->
-            <h1 class="font text-4xl">Premio Estudiantil 2025 <br> El Reino del Revés - 60 años</h1>
-            <div class="my-10 text-md grid gap-3">
-                <p class="underline"><b>Categorías</b></p>
-                <ul>
-                    <li class="font-light"><b>1. Nivel Inicial:</b> Producciones plásticas</li>
-                    <li class="font-light"><b>2. Primario:</b> Video</li>
-                    <li class="font-light">- De 1er. a 3er. grado</li>
-                    <li class="font-light">- De 4to. a 7mo. grado</li>
-                    <li class="font-light"><b>3. Secundario:</b> Fotografía</li>
-                </ul>					
-                <br>
-                <p class="underline"><b>Jurados</b></p>
-                <ul>
-                    <li class="font-light"><b>Artes Plásticas:</b></li>
-                    <li class="font-light">Raquel Cané - Ezequiel Díaz Ortiz - Pablo Elías</li>
-                    <br>
-                    <li class="font-light"><b>Videos:</b></li>
-                    <li class="font-light">Maijo D´Amico - Graciela García Romero - Daniel Rivas</li>
-                    <br>
-                    <li class="font-light"><b>Fotografía:</b></li>
-                    <li class="font-light">Elda Harrington - Silvia Mangialardi - Juan Travnik</li>
-                </ul>	
-            <br>
-            <div class="flex flex-col md:flex-row gap-4">
-                <a href="basesyformulario.docx" download="Bases y Formulario" class="border-2 border-gray-500 w-max p-4 hover:cursor-pointer rounded hover:bg-gray-500 transition">
-                    Descargar Bases y Formulario
-                </a>
-                <a href="/noticias/premio-infantil-2025" class="border-2 border-gray-500 w-max p-4 hover:cursor-pointer rounded hover:bg-gray-500 transition">
-                    Ir a la noticia
-                </a>
-            </div>
-        </div>
 
-            <span class="font">
-                Fundación Walsh Facio - Premio Infantil
-            </span>
-        </div>
+<div class="mx-3 sm:mx-10 xl:m-auto max-w-7xl rounded-2xl bg-[#160303]">
+  <div class="flex flex-col py-16 md:py-20 md:flex-row items-stretch justify-center max-w-6xl m-auto px-6 md:px-10 xl:px-0 gap-12 mb-12 md:mb-20">
+    
+    <!-- Video -->
+    <div class="flex-1 flex justify-center">
+      <div class="w-fit">
+        <video src="/tienda.mp4" class="shadow-xl shadow-black rounded-xl max-h-[50rem]" controls autoplay muted loop playsinline />
+        <!-- <span class="flex justify-end text-xs font mt-2">Foto: Sara Facio</span> -->
+      </div>
     </div>
+
+    <!-- Texto -->
+    <div class="flex-1 flex flex-col justify-between self-stretch md:py-10">
+      <div class="space-y-6">
+        <h1 class="font text-3xl md:text-4xl">
+          ¡Inauguramos la tienda<br> Walsh-Facio!
+        </h1>
+        
+        <div class="text-base space-y-4">
+          <p>
+            Un espacio donde cada objeto guarda una historia, una canción, una sonrisa.
+            La Tienda nos permite continuar manteniendo vivo el legado de María Elena compartiendo su obra.
+          </p>
+          <p>
+            ¡Ya podés visitarla en
+            <a class="underline hover:no-underline" target="_blank" href="http://tiendawalshfacio.com/">tiendawalshfacio.com</a>!
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-8 space-y-3 text-sm leading-relaxed">
+        <p>
+          🧸 Ilustración Osías: Natalia Bruno <br>
+          🎵 Canción: Marcha de Osías - María Elena Walsh <br>
+          👩🏻‍💻 Diseño y animación: @lopelusa
+        </p>
+        <span class="font block mt-2">
+          Fundación Walsh Facio
+        </span>
+      </div>
+    </div>
+  </div>
 </div>
 
 <style>
-	.font{
-		font-family: "Playfair Display", sans-serif;
-	}
+  .font {
+    font-family: "Playfair Display", sans-serif;
+  }
 </style>

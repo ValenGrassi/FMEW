@@ -34,7 +34,7 @@ export const MobileHeader = () => {
             <div>
                 <Campana/>
                 <img
-                    src={open ? "../close.svg?url" : "../menu.svg?url"}
+                    src={open ? "../close.svg?url" : "../menu.svg"}
                     onClick={() => { setOpen(!open) }}
                     className="absolute right-0 top-0 mt-6 mr-5 h-7 md:hidden cursor-pointer invert"
                 />
