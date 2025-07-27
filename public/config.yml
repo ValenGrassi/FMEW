@@ -8,10 +8,17 @@ public_folder: "/uploads"
 collections:
   - name: "noticias"
     label: "Noticias"
-    folder: "src/pages/noticias"
+    folder: "src/noticias"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Título", name: "title", widget: "string" }
-      - { label: "Fecha", name: "date", widget: "datetime" }
+      - { label: "Imagen destacada", name: "image", widget: "image", required: false }
       - { label: "Contenido", name: "body", widget: "markdown" }
+      - label: "Botón"
+        name: "boton"
+        widget: "object"
+        fields:
+          - { label: "Texto del botón", name: "texto", widget: "string" }
+          - { label: "Enlace del botón", name: "url", widget: "string" }
+      - { label: "Fecha", name: "date", widget: "datetime" }
