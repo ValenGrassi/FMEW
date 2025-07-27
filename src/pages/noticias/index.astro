@@ -45,13 +45,13 @@ const noticias = await getCollection("noticias");
 
 		<div class="max-w-6xl m-auto grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
 			{noticias.map(noticia => (
-			  <Noticiamd
-				src={noticia.data.image}
-				href={noticia.data.href}
-				title={noticia.data.title}
-				description={noticia.data.description}
-			  />
-			))}
+				<Noticiamd
+				  src={noticia.data.image}
+				  href={`/noticias/${noticia.slug}`}
+				  title={noticia.data.title}
+				  description={noticia.data.description}
+				/>
+			  ))}			  
 		  </div>
 
 		<Footer/>
