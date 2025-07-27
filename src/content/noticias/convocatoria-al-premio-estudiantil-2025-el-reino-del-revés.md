@@ -4,7 +4,7 @@ image: /uploads/nuevafiguracion1.jpeg
 boton:
   texto: Descargar Bases y Condiciones
   url: asdasda
-date: 2025-07-27T15:48:00.000-03:00
+date: junio
 ---
 La Fundación María Elena Walsh – Sara Facio anuncia la convocatoria, bajo el eje temático “El Reino del Revés”.
 El premio está dirigido a instituciones educativas, sociales y culturales, tanto públicas como privadas. La participación será mediante producciones grupales, organizadas en las siguientes categorías:
