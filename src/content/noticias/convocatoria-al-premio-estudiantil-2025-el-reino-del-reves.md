@@ -1,5 +1,5 @@
 ---
-title: Convocatoria al premio Estudiantil 2025 - "El Reino del Revés"
+title: Convocatoria al premio Estudiantil 2025 - "El Reino del Reves"
 description: Premio estudiantil 2025... descripcion
 image: /uploads/nuevafiguracion1.jpeg
 date: agosto Buenos Aires
