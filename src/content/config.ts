@@ -3,7 +3,7 @@ import { defineCollection, z } from "astro:content";
 const noticias = defineCollection({
   schema: z.object({
     title: z.string(),
-    date: z.string(), // o `z.date()` si usás formato ISO real
+    date: z.string(), 
     image: z.string().optional(),
     buttons: z.array(
       z.object({

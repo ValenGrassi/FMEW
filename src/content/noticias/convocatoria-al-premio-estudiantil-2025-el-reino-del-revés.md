@@ -1,11 +1,12 @@
 ---
 title: Convocatoria al premio Estudiantil 2025 - "El Reino del Revés"
 image: /uploads/nuevafiguracion1.jpeg
-boton:
-  texto: Descargar Bases y Condiciones
-  url: asdasda
+buttons:
+  - label: Descargar Bases y Condiciones
+    url: asdasda
 date: junio
 ---
+
 La Fundación María Elena Walsh – Sara Facio anuncia la convocatoria, bajo el eje temático “El Reino del Revés”.
 El premio está dirigido a instituciones educativas, sociales y culturales, tanto públicas como privadas. La participación será mediante producciones grupales, organizadas en las siguientes categorías:
 
