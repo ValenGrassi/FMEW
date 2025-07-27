@@ -12,6 +12,9 @@ import logoblack from "../../assets/logo black.jpeg"
 import reves from "../../assets/reves.jpeg"
 import Jornadas from "../../assets/rupturaRecortado.jpeg"
 
+import { getCollection } from "astro:content";
+
+const noticias = await getCollection("noticias");
 ---
 
 <Layout title="Noticias - FMEW">
@@ -38,7 +41,20 @@ import Jornadas from "../../assets/rupturaRecortado.jpeg"
 		<div class="flex justify-center mb-20">
 			<a href="/blog" class="text-sm font-bold border-white px-6 py-2 rounded border-2 hover:brightness-75 duration-150">VER BLOG</a>
 		</div>
+
+		<div class="max-w-6xl m-auto grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
+			{noticias.map(noticia => (
+			  <Noticia
+				src={noticia.data.image}
+				href={noticia.data.href}
+				title={noticia.data.title}
+				description={noticia.data.description}
+			  />
+			))}
+		  </div>
+		  
 		<Footer/>
+
 </Layout>
 <style>
     .font{

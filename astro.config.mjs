@@ -9,4 +9,8 @@ export default defineConfig({
   vite: {
     plugins: [md()],
   },
+  content: {
+    // opcional: podes poner collections acá si querés importar
+    // collections: import('./src/content/config.ts')
+  },
 });
