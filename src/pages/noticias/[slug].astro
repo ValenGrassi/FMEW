@@ -13,6 +13,7 @@ export async function getStaticPaths() {
 
 const { noticia } = Astro.props;
 const { Content } = await noticia.render();
+console.log(Content)
 ---
 
 <Layout title={noticia.data.title}>
@@ -21,8 +22,9 @@ const { Content } = await noticia.render();
 
     <div class="md:max-w-6xl m-auto my-8 lg:px-0">
       <img class="mt-4 m-auto w-96" src={noticia.data.image} alt={noticia.data.title} />
-
-      <div class="prose prose-lg max-w-none prose-invert text-white">
+        <br>
+        <br>
+      <div class="prose prose-base max-w-none prose-invert text-white font-light [&_h1]:text-2xl [&_h1]:font-normal [&_strong]:font-normal">
         <Content />
       </div>
       

@@ -5,7 +5,7 @@ const { title, src, href, description, invisible } = Astro.props
 <div class=`${invisible} bg-white rounded-sm md:w-1/2 ${title == "Premio Estudiantil 2025 - El Reino del Revés" && "border-[3px] border-red-700 rounded"}`>
     <div class="overflow-hidden rounded-t-sm">
         <a class="flex h-[30rem]" href={href}>
-            <img src={src} alt="imagen de noticia" class="transition-all duration-700 hover:scale-110 hover:brightness-75 object-cover" />
+            <img src={src} alt={description} class="transition-all duration-700 hover:scale-110 hover:brightness-75 w-full" />
         </a>
     </div>
     {title != "Premio Estudiantil 2025 - El Reino del Revés" && <div class="text-black grid my-8 mx-4 gap-4">

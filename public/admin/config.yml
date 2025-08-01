@@ -12,8 +12,9 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Título", name: "title", widget: "string", required: true}
-      - { label: "Descripción", name: "description", widget: "string", required: true}
-      - { label: "Imagen", name: "image", widget: "image", required: true}
-      - { label: "Contenido", name: "body", widget: "markdown", required: true}
-      - { label: "Fecha", name: "date", widget: "string", hint: "Ingresá la fecha o período, ejemplo: 'junio, julio' o 'primavera 2025'"}
+      - { label: "Título", name: "title", widget: "string", required: true, hint: "Ingresá el título de la noticia"}
+      - { label: "Imagen", name: "image", widget: "image", required: true, hint: "Es la imagen que irá debajo del título"}
+      - { label: "Contenido", name: "body", widget: "markdown", required: true, hint: "Ingresá el cuerpo de la noticia"}
+      - { label: "Fecha", name: "date", widget: "string", hint: "Ingresá la fecha o período, ejemplo: 'julio, Buenos Aires' o 'primavera 2025'"}
+      - { label: "Descripción", name: "description", widget: "string", required: true, hint: "Es la descripción que irá en el titular"}
+      - { label: "Imagen del titular", name: "image2", widget: "image", required: true, hint: "Es la imagen que irá en el titular"}

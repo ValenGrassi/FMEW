@@ -11,54 +11,71 @@ import Noticia from "../../components/Noticia.astro";
 import logoblack from "../../assets/logo black.jpeg"
 import reves from "../../assets/reves.jpeg"
 import Jornadas from "../../assets/rupturaRecortado.jpeg"
-
 import { getCollection } from "astro:content";
 import Noticiamd from "../../components/Noticiamd.astro";
 
 const noticias = await getCollection("noticias");
+
+// Agrupar de a 2
+function agruparDeADos(arr) {
+  const resultado = [];
+  for (let i = 0; i < arr.length; i += 2) {
+    resultado.push(arr.slice(i, i + 2));
+  }
+  return resultado;
+}
+
+const noticiasAgrupadas = agruparDeADos(noticias);
 ---
 
 <Layout title="Noticias - FMEW">
-    <div class="my-20 md:mt-0 mx-10 lg:mx-0">
-        <h1 class="text-center font text-4xl">Noticias</h1>
-        <div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 px-10 lg:px-0">
-			<Noticia src={reves} href="/noticias/premio-infantil-2025" title="Premio Estudiantil 2025 - El Reino del Revés" description="Premio estudiantil 2025... descripcion" />
-			<Noticia src={Jornadas} href="/noticias/jornadas" title="Jornadas Académicas Nacionales" description="Universidades y centros de investigación de todo el país llevan adelante estas jornadas académicas nacionales en un espacio de reflexión sobre María Elena Walsh." />
-		</div>
-		<div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 px-10 lg:px-0">
-			<Noticia src={logoblack} href="/noticias/nueva-figuracion-fundacion" title="Fundación María Elena Walsh - Sara Facio" description="Nueva figuración Fundación María Elena Walsh - Sara Facio." />
-            <Noticia src={premios3} href="/noticias/premio-bases" title="Premio Fundación María Elena Walsh - Sara Facio 2024" description="La Fundación María Elena Walsh - Sara Facio convoca al Premio del año 2024 dedicado a la disciplina Literatura, novela erótica." />
-        </div>
-		
-		<div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 px-10 lg:px-0">
-			<Noticia src={niños} href="/noticias/premio-infantil-bases" title="Premio infantil Fundación María Elena Walsh - Sara Facio 2024" description="La Fundación María Elena Walsh - Sara Facio convoca al Premio infantil del año 2024 dedicado a la disciplina Literatura, limericks, por los sesenta años de Zoo Loco." />
-			<Noticia src={manuelita} href="/noticias/concurso-infantil" title="CONCURSO INFANTIL: ¡Festejamos los 60 años de Manuelita!" description="La Fundación María Elena Walsh convoca al Premio infantil del año 2023 dedicado a la disciplina Arte sustentable." />
-		</div>
-		
-		<div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 px-10 lg:px-0">
-			
-			<Noticia src={premios2} href="/noticias/interes-cultural" title="LA LEGISLATURA PORTEÑA DECLARA DE INTERÉS CULTURAL A LA FUNDACIÓN MARÍA ELENA WALSH" description="La Fundación María Elena Walsh fue reconocida por su labor en la Legislatura Porteña." />
-		</div>
-		<div class="flex justify-center mb-20">
-			<a href="/blog" class="text-sm font-bold border-white px-6 py-2 rounded border-2 hover:brightness-75 duration-150">VER BLOG</a>
-		</div>
+  <div class="my-20 md:mt-0 mx-10 lg:mx-0">
+    <h1 class="text-center font text-4xl">Noticias</h1>
 
-		<div class="max-w-6xl m-auto grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
-			{noticias.map(noticia => (
-				<Noticiamd
-				  src={noticia.data.image}
-				  href={`/noticias/${noticia.slug}`}
-				  title={noticia.data.title}
-				  description={noticia.data.description}
-				/>
-			  ))}			  
-		  </div>
+    <!-- Noticias manuales -->
+    <div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 px-10 lg:px-0">
+      <Noticia src={reves} href="/noticias/premio-infantil-2025" title="Premio Estudiantil 2025 - El Reino del Revés" description="Premio estudiantil 2025... descripcion" />
+      <Noticia src={Jornadas} href="/noticias/jornadas" title="Jornadas Académicas Nacionales" description="Universidades y centros de investigación de todo el país llevan adelante estas jornadas académicas nacionales en un espacio de reflexión sobre María Elena Walsh." />
+    </div>
 
-		<Footer/>
+    <div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 px-10 lg:px-0">
+      <Noticia src={logoblack} href="/noticias/nueva-figuracion-fundacion" title="Fundación María Elena Walsh - Sara Facio" description="Nueva figuración Fundación María Elena Walsh - Sara Facio." />
+      <Noticia src={premios3} href="/noticias/premio-bases" title="Premio Fundación María Elena Walsh - Sara Facio 2024" description="La Fundación María Elena Walsh - Sara Facio convoca al Premio del año 2024 dedicado a la disciplina Literatura, novela erótica." />
+    </div>
 
+    <div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 px-10 lg:px-0">
+      <Noticia src={niños} href="/noticias/premio-infantil-bases" title="Premio infantil Fundación María Elena Walsh - Sara Facio 2024" description="La Fundación María Elena Walsh - Sara Facio convoca al Premio infantil del año 2024 dedicado a la disciplina Literatura, limericks, por los sesenta años de Zoo Loco." />
+      <Noticia src={manuelita} href="/noticias/concurso-infantil" title="CONCURSO INFANTIL: ¡Festejamos los 60 años de Manuelita!" description="La Fundación María Elena Walsh convoca al Premio infantil del año 2023 dedicado a la disciplina Arte sustentable." />
+    </div>
+
+    <div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 px-10 lg:px-0">
+      <Noticia src={premios2} href="/noticias/interes-cultural" title="LA LEGISLATURA PORTEÑA DECLARA DE INTERÉS CULTURAL A LA FUNDACIÓN MARÍA ELENA WALSH" description="La Fundación María Elena Walsh fue reconocida por su labor en la Legislatura Porteña." />
+    </div>
+
+    <div class="flex justify-center mb-20">
+      <a href="/blog" class="text-sm font-bold border-white px-6 py-2 rounded border-2 hover:brightness-75 duration-150">VER BLOG</a>
+    </div>
+
+    <!-- Noticias async agrupadas de a dos -->
+    {noticiasAgrupadas.map(grupo => (
+      <div class="md:max-w-6xl m-auto flex flex-col md:flex-row gap-8 my-8 px-10 lg:px-0">
+        {grupo.map(noticia => (
+          <Noticiamd
+            src={noticia.data.image}
+            href={`/noticias/${noticia.slug}`}
+            title={noticia.data.title}
+            description={noticia.data.description}
+          />
+        ))}
+      </div>
+    ))}
+
+    <Footer />
+  </div>
 </Layout>
+
 <style>
-    .font{
-        font-family: "playfair display", sans-serif;
-    }
+  .font {
+    font-family: "playfair display", sans-serif;
+  }
 </style>
