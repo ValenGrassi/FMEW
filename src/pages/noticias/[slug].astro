@@ -5,15 +5,14 @@ import Footer from '../../layouts/Footer.astro';
 
 export async function getStaticPaths() {
   const noticias = await getCollection('noticias');
-
   return noticias.map((entry) => ({
-    params: { slug: entry.slug }, // ¡Usá el slug generado automáticamente!
+    params: { slug: entry.slug },
     props: { noticia: entry },
   }));
 }
 
-
 const { noticia } = Astro.props;
+const { Content } = await noticia.render();
 ---
 
 <Layout title={noticia.data.title}>
@@ -21,19 +20,24 @@ const { noticia } = Astro.props;
     <h1 class="text-center font text-4xl">{noticia.data.title}</h1>
 
     <div class="md:max-w-6xl m-auto my-8 lg:px-0">
-      {noticia.data.image && (
-        <img class="mt-4 m-auto w-96 rounded-lg" src={noticia.data.image} alt={noticia.data.title} />
-      )}
+      <img class="mt-4 m-auto w-96" src={noticia.data.image} alt={noticia.data.title} />
 
-      <p class="mt-16"><b>{noticia.data.date}</b></p>
+      <div class="prose prose-lg max-w-none prose-invert text-white">
+        <Content />
+      </div>
+      
+      <p class="mt-16">{noticia.data.date}</p>
     </div>
-  </div>
 
-  <Footer />
+    <Footer />
+  </div>
 </Layout>
 
 <style>
   .font {
     font-family: "playfair display", sans-serif;
+  }
+  li {
+    font-weight: 300 !important;
   }
 </style>
