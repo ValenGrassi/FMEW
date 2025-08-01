@@ -19,3 +19,7 @@ collections:
       - { label: "Fecha", name: "date", widget: "string", hint: "Ingresá la fecha o período, ejemplo: 'julio, Buenos Aires' o 'primavera 2025'"}
       - { label: "Descripción", name: "description", widget: "string", required: true, hint: "Es la descripción que irá en el titular"}
       - { label: "Imagen del titular", name: "image2", widget: "image", required: true, hint: "Es la imagen que irá en el titular"}
+      - label: "Galería de Imágenes"
+        name: "galeria"
+        widget: "list"
+        field: { label: "Imagen", name: "imagen", widget: "image" }
