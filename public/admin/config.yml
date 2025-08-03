@@ -12,13 +12,13 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - { label: "Orden", name: "order", widget: "number", required: true, hint: "El número de orden de la noticia. Mas alto significa mas nuevo.", min: 1, max: 101}
       - { label: "Título", name: "title", widget: "string", required: true, hint: "Ingresá el título de la noticia"}
       - { label: "Video", name: "video", widget: "string", required: false, hint: "OPCIONAL: Ingresá el link del video de la noticia"}
       - label: "Imágenes"
         name: "galeria"
         widget: "list"
         field: { label: "Imagen", name: "imagen", widget: "image" }
-      # - { label: "Imagen", name: "image", widget: "image", required: true, hint: "Es la imagen que irá debajo del título", allow_multiple: true}
       - { label: "Contenido", name: "body", widget: "markdown", required: true, hint: "Ingresá el cuerpo de la noticia"}
       - { label: "Fecha", name: "date", widget: "string", hint: "Ingresá la fecha o período, ejemplo: 'julio, Buenos Aires' o 'primavera 2025'"}
       - { label: "Descripción", name: "description", widget: "string", required: true, hint: "Es la descripción que irá en el titular"}
