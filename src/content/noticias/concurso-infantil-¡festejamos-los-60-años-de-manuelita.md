@@ -1,7 +1,7 @@
 ---
 title: La Legislatura porteña declara de interés cultural a la Fundación María
   Elena Walsh
-video: ""
+video: https://www.youtube.com/watch?v=FiQYMJNAdeY
 image: /uploads/manuelita.webp
 galeria:
   - /uploads/interes2.webp
