@@ -18,8 +18,8 @@ console.log(data)
     <!-- Video -->
     <div class="flex-1 flex justify-center">
       <div class="w-fit">
-        <video src="/tienda.mp4" class="shadow-xl shadow-black rounded-xl max-h-[50rem]" controls autoplay muted loop playsinline />
-        <!-- <span class="flex justify-end text-xs font mt-2">Foto: Sara Facio</span> -->
+        {data.image && <img src={data.image} class="rounded-md" />}
+        {data.video && <video src={data.video} class="shadow-xl shadow-black rounded-xl max-h-[50rem]" controls autoplay muted loop playsinline />}
       </div>
     </div>
 
