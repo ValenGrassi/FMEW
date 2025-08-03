@@ -1,6 +1,6 @@
 ---
 title: "CONCURSO INFANTIL: ¡Festejamos los 60 años de Manuelita!"
-video: ""
+video: "https://www.youtube.com/watch?v=FiQYMJNAdeY"
 image: /uploads/manuelita.webp
 galeria:
   - /uploads/interes2.webp

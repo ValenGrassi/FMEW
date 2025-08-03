@@ -13,7 +13,13 @@ export async function getStaticPaths() {
 
 const { noticia } = Astro.props;
 const { Content } = await noticia.render();
-console.log(Content)
+console.log(noticia)
+const imagenes = noticia.data.galeria ?? []; // fallback a array vacío
+const rawVideo = noticia.data.video;
+const video = rawVideo?.includes('watch?v=') 
+  ? rawVideo.replace('watch?v=', 'embed/')
+  : rawVideo;
+
 ---
 
 <Layout title={noticia.data.title}>
@@ -21,7 +27,29 @@ console.log(Content)
     <h1 class="text-center font text-4xl">{noticia.data.title}</h1>
 
     <div class="md:max-w-6xl m-auto my-8 lg:px-0">
-      <img class="mt-4 m-auto w-[32rem]" src={noticia.data.image} alt={noticia.data.title} />
+      {video && (
+        <iframe src={video} class="mt-4 m-auto md:w-3/4 md:h-96" title="Distinción a la Fundación María Elena Walsh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      )}
+      {imagenes.length > 0 && (
+        <div
+          class={`grid gap-4 mt-8 ${
+            imagenes.length === 1
+              ? 'grid-cols-1 place-items-center'
+              : imagenes.length === 2
+              ? 'grid-cols-1 md:grid-cols-2 place-items-center'
+              : 'grid-cols-1 md:grid-cols-3 '
+          }`}
+        >
+          {imagenes.map((img, i) => (
+            <img
+              key={i}
+              src={img}
+              alt={`Imagen ${i + 1}`}
+              class="md:h-[30rem] w-full md:w-auto rounded-sm shadow-md"
+            />
+          ))}
+        </div>
+      )}
         <br>
         <br>
       <div class="prose prose-base max-w-none prose-invert text-white font-light [&_h1]:text-2xl [&_h1]:font-normal [&_strong]:font-normal">

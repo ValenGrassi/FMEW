@@ -18,8 +18,9 @@ const noticias = defineCollection({
     title: z.string(),
     description: z.string(),
     date: z.string(),
-    image: z.string(),
-    image2: z.string()
+    galeria: z.array(z.string()),
+    image2: z.string(),
+    video: z.string().optional()
   }),
   slug: ({ data }) => {
     const slug = generarSlugDesdeTitulo(data.title);
