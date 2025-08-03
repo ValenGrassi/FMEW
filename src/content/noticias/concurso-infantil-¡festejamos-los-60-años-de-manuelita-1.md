@@ -1,4 +1,5 @@
 ---
+order: 2
 title: "CONCURSO INFANTIL: ¡Festejamos los 60 años de Manuelita!"
 galeria:
   - /uploads/manuelita.webp
