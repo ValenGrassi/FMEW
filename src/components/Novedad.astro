@@ -3,11 +3,13 @@ import { Image } from 'astro:assets';
 import Revés from "../assets/reves.jpeg"
 import SaraIndex from "../assets/saraIndex.png"
 import '@fontsource/playfair-display';
-
 import { getEntryBySlug } from "astro:content";
 
-const novedad = await getEntryBySlug("novedad", "novedad");
-console.log(novedad)
+
+const entry = await getEntryBySlug("novedad", "novedad");
+const { Content } = await entry.render();
+const { data } = entry; // ahora sí tenés accesso al frontmatter
+console.log(data)
 ---
 
 <div class="mx-3 sm:mx-10 xl:m-auto max-w-7xl rounded-2xl bg-[#160303]">
@@ -25,30 +27,16 @@ console.log(novedad)
     <div class="flex-1 flex flex-col justify-between self-stretch md:py-10">
       <div class="space-y-6">
         <h1 class="font text-3xl md:text-4xl">
-          ¡Inauguramos la tienda<br> Walsh-Facio!
+          {data.title}
         </h1>
         
-        <div class="text-base space-y-4">
-          <p>
-            Un espacio donde cada objeto guarda una historia, una canción, una sonrisa.
-            La Tienda nos permite continuar manteniendo vivo el legado de María Elena compartiendo su obra.
-          </p>
-          <p>
-            ¡Ya podés visitarla en
-            <a class="underline hover:no-underline" target="_blank" href="http://tiendawalshfacio.com/">tiendawalshfacio.com</a>!
-          </p>
+        <div class="prose prose-invert max-w-none [&_strong]:font-normal">
+          <Content />
         </div>
       </div>
 
-      <div class="mt-8 space-y-3 text-sm leading-relaxed">
-        <p>
-          🧸 Ilustración Osías: Natalia Bruno <br>
-          🎵 Canción: Marcha de Osías - María Elena Walsh <br>
-          👩🏻‍💻 Diseño y animación: @lopelusa
-        </p>
-        <span class="font block mt-2">
-          Fundación Walsh Facio
-        </span>
+      <div class="mt-8 space-y-3 text-sm leading-relaxed font-medium">
+        {data.credits}
       </div>
     </div>
   </div>

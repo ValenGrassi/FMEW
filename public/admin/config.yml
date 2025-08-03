@@ -35,6 +35,6 @@ collections:
         fields:
           - { label: "Título", name: "title", widget: "string", required: true }
           - { label: "Descripción", name: "body", widget: "markdown", required: true }
-          - { label: "Imagen (opcional)", name: "image", widget: "image", required: false }
-          - { label: "Video (opcional)", name: "video", widget: "file", required: false }
-          - { label: "Creditos", name: "credits", widget: "markdown", required: true }
+          - { label: "Imagen", name: "image", widget: "image", required: false }
+          - { label: "Video", name: "video", widget: "file", required: false }
+          - { label: "Creditos", name: "credits", widget: "string", required: true }
