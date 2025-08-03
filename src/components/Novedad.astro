@@ -17,9 +17,9 @@ console.log(data)
     
     <!-- Video -->
     <div class="flex-1 flex justify-center">
-      <div class="w-fit">
+      <div class="w-fit flex justify-center">
         {data.image && <img src={data.image} class="rounded-md max-w-full h-auto object-contain" />}
-        {data.video && <video src={data.video} class="shadow-xl shadow-black rounded-xl max-h-[50rem]" controls autoplay muted loop playsinline />}
+        {data.video && <video src={data.video} class="shadow-xl shadow-black rounded-md max-h-[50rem]" controls autoplay muted loop playsinline />}
       </div>
     </div>
 
