@@ -15,6 +15,7 @@ function generarSlugDesdeTitulo(title: string): string {
 
 const noticias = defineCollection({
   schema: z.object({
+    order: z.number(),
     title: z.string(),
     description: z.string(),
     date: z.string(),

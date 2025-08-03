@@ -3,6 +3,11 @@ import { Image } from 'astro:assets';
 import Revés from "../assets/reves.jpeg"
 import SaraIndex from "../assets/saraIndex.png"
 import '@fontsource/playfair-display';
+
+import { getEntryBySlug } from "astro:content";
+
+const novedad = await getEntryBySlug("novedad", "novedad");
+console.log(novedad)
 ---
 
 <div class="mx-3 sm:mx-10 xl:m-auto max-w-7xl rounded-2xl bg-[#160303]">

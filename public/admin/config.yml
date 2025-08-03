@@ -23,3 +23,18 @@ collections:
       - { label: "Fecha", name: "date", widget: "string", hint: "Ingresá la fecha o período, ejemplo: 'julio, Buenos Aires' o 'primavera 2025'"}
       - { label: "Descripción", name: "description", widget: "string", required: true, hint: "Es la descripción que irá en el titular"}
       - { label: "Imagen del titular", name: "image2", widget: "image", required: true, hint: "Es la imagen que irá en el titular"}
+  - name: "novedad"
+    label: "Novedad destacada"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - file: "src/content/novedad/novedad.md"
+        label: "Contenido de la novedad"
+        name: "novedad"
+        fields:
+          - { label: "Título", name: "title", widget: "string", required: true }
+          - { label: "Descripción", name: "body", widget: "markdown", required: true }
+          - { label: "Imagen (opcional)", name: "image", widget: "image", required: false }
+          - { label: "Video (opcional)", name: "video", widget: "file", required: false }
+          - { label: "Creditos", name: "credits", widget: "markdown", required: true }
