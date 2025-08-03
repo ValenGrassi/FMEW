@@ -1,4 +1,5 @@
 ---
+order: 6
 title: Jornadas Académicas Nacionales "María Elena Walsh, la ruptura"
 galeria:
   - /uploads/ruptura.bxdxnu9i_w7vbw.webp
