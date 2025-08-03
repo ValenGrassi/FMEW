@@ -13,7 +13,6 @@ export async function getStaticPaths() {
 
 const { noticia } = Astro.props;
 const { Content } = await noticia.render();
-console.log(noticia)
 const imagenes = noticia.data.galeria ?? []; // fallback a array vacío
 const rawVideo = noticia.data.video;
 const video = rawVideo?.includes('watch?v=') 
