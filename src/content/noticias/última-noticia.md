@@ -1,11 +1,11 @@
 ---
 order: 12
 title: ÚLTIMA NOTICIA
-video: https://www.youtube.com/watch?v=PMeUorkur8o&list=RDPMeUorkur8o&start_radio=1&pp=oAcB
+video: https://www.youtube.com/watch?v=5cnIWNwxVpw
 galeria:
   - /uploads/logo-uces-virtual.jpg
 date: Agosto Fundación Walsh Facio
-description: descripcion de la noticia
+description: Agosto Fundación Walsh Facio
 image2: /uploads/logo-uces-virtual.jpg
 ---
 
