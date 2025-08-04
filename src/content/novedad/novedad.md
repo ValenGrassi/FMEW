@@ -1,16 +1,13 @@
 ---
-title: ¡Inauguramos la tienda Walsh-Facio!
+title: ¡Nueva Fecha del Premio Fundacion Walsh Facio!
 image: ""
-video: /uploads/tienda.mp4
-credits: Fundación Walsh Facio
+video: /uploads/videogracielacomprimido.mp4
+credits: "Cancion: Maria Elena Walsh"
 ---
-Un espacio donde cada objeto guarda una historia, una canción, una sonrisa. La Tienda nos permite continuar manteniendo vivo el legado de María Elena compartiendo su obra. **¡Ya podés visitarla en tiendawalshfacio.com!**
+Se **celebrará** la nueva fecha del *premio* fundacion Walsh Facio
 
+🧸 Fecha: 21/8
 
-🧸 Ilustración Osías: Natalia Bruno
-
-
-🎵 Canción: Marcha de Osías - María Elena Walsh
-
+🎵 Lugar: Capital Federal
 
 👩🏻‍💻 Diseño y animación: @lopelusa
