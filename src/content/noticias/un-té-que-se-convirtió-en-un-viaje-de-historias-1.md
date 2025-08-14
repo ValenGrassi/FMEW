@@ -3,7 +3,7 @@ order: 9
 title: Un té que se convirtió en un viaje de historias
 galeria:
   - /uploads/1.jpg
-date: Agosto
+date: Agosto 2025 FWF
 description: Encuentro con quienes dieron color al universo de María Elena Walsh
 image2: /uploads/2.jpg
 ---
