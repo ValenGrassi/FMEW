@@ -15,5 +15,7 @@ Un espacio donde cada objeto guarda una historia, una canción, una sonrisa. La 
 
 
 🧸 Ilustración Osías: Natalia Bruno
+
 🎵 Canción: Marcha de Osías - María Elena Walsh
+
 👩🏻‍💻 Diseño y animación: @lopelusa
