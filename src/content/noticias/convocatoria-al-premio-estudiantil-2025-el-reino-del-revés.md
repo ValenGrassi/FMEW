@@ -35,12 +35,11 @@ PREMIO ESTUDIANTIL 2025 “EL REINO DEL REVÉS” Fundación María Elena Walsh 
 **Categorías:**
 
 1. Nivel Inicial: producciones plásticas
-
 2. Primario: Video
 
-    2A de 1er. a 3er. grado
+    2A: de 1er. a 3er. grado
 
-    2B de 4to. a 7mo. grado
+    2B: de 4to. a 7mo. grado
 
 3. Secundario: Fotografía
 
@@ -118,11 +117,9 @@ Toda situación no prevista será resuelta por la Fundación María Elena Walsh 
 
 \------------------------------------------------------------------------------------------------------------------------------
 
-> **Formulario de datos**
->
-> **Premio “EL REINO DEL REVÉS”**
+> **Formulario de datos Premio “EL REINO DEL REVÉS”**
 
-1.Categoría en la que participa (marcar con una X):
+1. Categoría en la que participa (marcar con una X):
 
 \[ ] Categoría 1
 
@@ -131,8 +128,6 @@ Toda situación no prevista será resuelta por la Fundación María Elena Walsh 
 \[ ] Categoría 2B
 
 \[ ] Categoría 3
-
-
 
 Nombre de la institución educativa:
 
@@ -154,5 +149,12 @@ Teléfono de contacto (fijo y/o móvil):
 
 ...................................................................................................................
 
-La obra y este
-formulario deberán enviarse por correo electrónico a [premioinfantilwalshfacio@gmail.com](mailto:premioinfantilwalshfacio@gmail.com)
+La obra y este formulario deberán enviarse por correo electrónico a [premioinfantilwalshfacio@gmail.com](mailto:premioinfantilwalshfacio@gmail.com)
+
+[](mailto:premioinfantilwalshfacio@gmail.com)
+
+[](mailto:premioinfantilwalshfacio@gmail.com)
+
+[](mailto:premioinfantilwalshfacio@gmail.com)
+
+[](mailto:premioinfantilwalshfacio@gmail.com)
