@@ -28,14 +28,13 @@ La Fundación invita a todas las instituciones a participar del Premio Estudiant
 
 
 
+\------------------------------------------------------------------------------------------------------------------------------
 
 
 
 
 
-> **Bases y Formulario de Inscripción:**
-
- 
+> **Bases del concurso:**
 
 PREMIO ESTUDIANTIL
 2025
@@ -44,7 +43,6 @@ PREMIO ESTUDIANTIL
 
 Fundación María Elena
 Walsh – Sara Facio
-
 
 Categorías:
 
@@ -64,14 +62,10 @@ Fotografía
 En todos los casos
 serán producciones grupales 
 
- 
-
 Destinatarios:
 
 Pertenecientes a instituciones educativas, sociales o culturales,
 públicas o privadas.
-
- 
 
 Modalidad:
 
@@ -82,8 +76,6 @@ Cada institución
 deberá elegir, con la participación de su comunidad, una sola pieza en
 representación de la misma.
 
- 
-
 Presentación:
 
 Una obra por
@@ -91,17 +83,9 @@ institución, en formato JPG o mp4 duración máxima 5 minutos, según correspon
 acompañada por el PDF con todos los datos requeridos. Deben enviarse en un solo
 mail  a [premioinfantilwalshfacio@gmail.com](mailto:premioinfantilwalshfacio@gmail.com)
 
- 
-
- 
-
 Datos requeridos:
 
 Formulario adjunto en PDF
-
- 
-
- 
 
 Premio:
 
@@ -110,12 +94,6 @@ libros de María Elena Walsh y 25 libros infantiles y para adultos del Grupo
 Editorial Penguin Random House para la escuela ganadora de cada categoría.
 
 El jurado podrá otorgar menciones especiales si lo considera pertinente.
-
- 
-
- 
-
- 
 
 Cronograma:
 
@@ -128,10 +106,6 @@ partir del 29 de septiembre de 2025
 Entrega de premios: fecha y lugar a
 confirmar
 
- 
-
- 
-
 Jurados:
 
 Artes plásticas
@@ -142,18 +116,13 @@ Ezequiel Díaz Ortiz
 
 Pablo Elías
 
- 
-
 Video
 
 Maijo D´Amico
 
 Graciela García Romero
 
-
 Daniel Rivas 
-
- 
 
 Fotografía
 
@@ -163,12 +132,8 @@ Silvia Mangialardi
 
 Juan Travnik
 
- 
-
 Sus fallos serán
 inapelables.
-
- 
 
 Derechos de uso
 
@@ -176,8 +141,6 @@ Las obras premiadas o
 mencionadas ceden a la Fundación el derecho de uso para difusión (prensa,
 redes, TV, mail), por el plazo de un (1) año, sin perder sus derechos de autor
 según la Ley 11.723.
-
- 
 
 Sobre la aceptación
 
@@ -187,104 +150,48 @@ este premio implica la aceptación total de estas bases.
 Toda situación no prevista será resuelta
 por la Fundación María Elena Walsh – Sara Facio.
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+\------------------------------------------------------------------------------------------------------------------------------
 
 > **Formulario de datos**
 >
 > **Premio “EL REINO DEL REVÉS”**
 
- 
-
- 
-
- 
-
- 
-
- 
-
 1.Categoría
 en la que participa (marcar con una X):
 
-
-
 \[ ] Categoría 1
 
-
-
 \[ ] Categoría 2A
-
- 
 
 \[ ]
 Categoría 2B
 
-
-
 \[ ] Categoría 3
-
- 
-
- 
 
 2.Nombre de
 la institución educativa:
 
 ...................................................................................................................
 
- 
-
-
-
 3. Título de la obra:
 
 ...................................................................................................................
 
- 
-
-
-
 4. Nombre completo de los/as adultos/as responsables o acompañantes del
-proceso:
-
-
+   proceso:
 
 ...................................................................................................................
-
-
 
 ..................................................................................................................
 
- 
-
 5. Correo
-electrónico de contacto:
-
-
+   electrónico de contacto:
 
 ...................................................................................................................
-
-
 
 6. Teléfono de contacto (fijo y/o móvil):
 
 ...................................................................................................................
-
- 
 
 La obra y este
 formulario deberán enviarse por correo electrónico a [premioinfantilwalshfacio@gmail.com](mailto:premioinfantilwalshfacio@gmail.com)
