@@ -3,6 +3,9 @@ order: 7
 title: Convocatoria al premio Estudiantil 2025 - "El Reino del Revés"
 galeria:
   - /uploads/reveslibro.bhei8xd-_z1fg8jc-1-.webp
+downloads:
+  - label: Descargar bases y formulario
+    url: /uploads/bases-y-formulario-1-.docx
 date: Buenos Aires, julio-agosto 2025
 description: Premio estudiantil 2025
 image2: /uploads/reves.birhl5h-_zqskey.webp
