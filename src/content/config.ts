@@ -21,7 +21,13 @@ const noticias = defineCollection({
     date: z.string(),
     galeria: z.array(z.string()),
     image2: z.string(),
-    video: z.string().optional()
+    video: z.string().optional(),
+    downloads: z.array(
+      z.object({
+        label: z.string(),
+        url: z.string(),
+      })
+    ).optional(),
   }),
   slug: ({ data }) => {
     const slug = generarSlugDesdeTitulo(data.title);

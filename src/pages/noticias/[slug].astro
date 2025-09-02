@@ -12,6 +12,7 @@ export async function getStaticPaths() {
 }
 
 const { noticia } = Astro.props;
+console.log(noticia.data.downloads)
 const { Content } = await noticia.render();
 const imagenes = noticia.data.galeria ?? []; // fallback a array vacío
 const rawVideo = noticia.data.video;
@@ -53,6 +54,19 @@ const video = rawVideo?.includes('watch?v=')
         <br>
       <div class="prose prose-base max-w-none prose-invert text-white font-light [&_h1]:text-2xl [&_h1]:font-normal [&_strong]:font-normal">
         <Content />
+        {noticia.data.downloads?.length && (
+          <div class="mt-8 flex flex-col gap-4">
+            {noticia.data.downloads.map((d) => (
+              <a
+                href={d.url}
+                download
+                class="border-2 border-white w-max p-3 rounded hover:bg-gray-500 hover:text-white transition no-underline"
+              >
+                {d.label}
+              </a>
+            ))}
+          </div>
+        )}
       </div>
       
       <p class="mt-16 font-normal">{noticia.data.date}</p>
