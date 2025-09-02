@@ -7,7 +7,7 @@ date: Buenos Aires, julio-agosto 2025
 description: Premio estudiantil 2025
 image2: /uploads/reves.birhl5h-_zqskey.webp
 ---
-**La Fundación María Elena Walsh – Sara Facio anuncia la convocatoria, bajo el eje temático “El Reino del Revés”.**
+**La Fundación María Elena Walsh – Sara Facio anuncia la convocatoria, bajo el eje temático “El Reino del Revés”.a**
 El premio está dirigido a instituciones educativas, sociales y culturales, tanto públicas como privadas. La participación será mediante producciones grupales, organizadas en las siguientes categorías:
 
 1. Nivel Inicial: Producciones plásticas
