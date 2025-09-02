@@ -19,6 +19,7 @@ collections:
         name: "galeria"
         widget: "list"
         field: { label: "Imagen", name: "imagen", widget: "image" }
+      - { label: "Contenido", name: "body", widget: "markdown", required: true, hint: "Ingresá el cuerpo de la noticia"}
       - label: "Botones de descarga"
         name: "downloads"
         widget: "list"
@@ -27,7 +28,6 @@ collections:
         fields:
           - { label: "Texto del botón", name: "label", widget: "string" }
           - { label: "Archivo", name: "url", widget: "file" }
-      - { label: "Contenido", name: "body", widget: "markdown", required: true, hint: "Ingresá el cuerpo de la noticia"}
       - { label: "Fecha", name: "date", widget: "string", hint: "Ingresá la fecha o período, ejemplo: 'julio, Buenos Aires' o 'primavera 2025'"}
       - { label: "Descripción", name: "description", widget: "string", required: true, hint: "Es la descripción que irá en el titular"}
       - { label: "Imagen del titular", name: "image2", widget: "image", required: true, hint: "Es la imagen que irá en el titular"}
