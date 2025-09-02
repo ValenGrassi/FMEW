@@ -3,6 +3,9 @@ order: 2
 title: "CONCURSO INFANTIL: ¡Festejamos los 60 años de Manuelita!"
 galeria:
   - /uploads/manuelita.webp
+downloads:
+  - label: GIL
+    url: /uploads/1.jpg
 date: 2023, FMEW
 description: La Fundación María Elena Walsh convoca al Premio infantil del año
   2023 dedicado a la disciplina Arte sustentable.
