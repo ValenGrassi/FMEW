@@ -8,7 +8,7 @@ description: Nos complace comunicar los ganadores del Premio Estudiantil 2025 �
   “El Reino del Revés”.
 image2: /uploads/premios-2025-.jpg
 ---
- **\    Nos complace comunicar los ganadores del Premio Estudiantil 2025 — “El Reino del Revés”**
+\     **   Nos complace comunicar los ganadores del Premio Estudiantil 2025 — “El Reino del Revés”**
 
 **Nivel Inicial**
 
@@ -17,7 +17,6 @@ image2: /uploads/premios-2025-.jpg
 
   * Jardín Municipal N°6 Arroz con leche — *“El osito de la nuez”*
   * Jardín N°14 DE 21 Dr. Antonio Bermejo — *“Mundo Loco”*
-
 
 **Primaria — Categoría A** 
 
@@ -35,7 +34,6 @@ image2: /uploads/premios-2025-.jpg
 
   * Escuela N°85 La Esperanza — *“Cuarto grado del revés”*
   * Escuela N°37 “Patricio O’Byrne” — *“El reino del revés”*
-
 
 **Secundaria (Fotografía)**
 
