@@ -1,7 +1,7 @@
 ---
 order: 10
 title: El legado de María Elena Walsh y Sara Facio llegó a la Caja de las Letras.
-video: https://youtu.be/n_iECLjfn-0?si=F-K2_rTdxK8T1N-N
+video: https://www.youtube.com/watch?v=n_iECLjfn-0&t=5s
 galeria:
   - /uploads/ms.jpg
 date: "Octubre La Fundación Walsh–Facio "
