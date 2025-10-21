@@ -34,9 +34,10 @@ image2: /uploads/premios-2025-.jpg
 
   * Escuela N°85 La Esperanza — *“Cuarto grado del revés”*
   * Escuela N°37 “Patricio O’Byrne” — *“El reino del revés”*
+  * Escuela N°17 DE 14 María Elena Walsh — "*La Escuela del Revés"*
 
-**Secundaria (Fotografía)**
 
+    **Secundaria (Fotografía)**
 * **Premio: Colegio Ser Piero Da Vinci — *“Vigente”***
 
 Agradecemos y felicitamos a todas las instituciones, docentes, auxiliares y estudiantes que participaron.
