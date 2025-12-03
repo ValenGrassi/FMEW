@@ -4,10 +4,8 @@ image: /uploads/escultura.jpg
 video: ""
 credits: 04/12/2025
 ---
-2025 TEATRO
+**2025 TEATRO**
 
-EL REINO DEL REVÉS
+**EL REINO DEL REVÉS**
 
-
-
-BASES Y CONDICIONES: Podés consultarlas en la sección *Noticias*.
+**BASES Y CONDICIONES**: Podés consultarlas en la sección *Noticias*.
