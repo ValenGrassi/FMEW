@@ -1,6 +1,6 @@
 ---
 title: "PREMIO 2025 “EL REINO DEL REVÉS”  "
-image: /uploads/2.jpg
+image: ""
 video: ""
 credits: Fundación Walsh Facio
 ---
