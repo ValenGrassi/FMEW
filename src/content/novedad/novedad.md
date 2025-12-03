@@ -1,7 +1,7 @@
 ---
 title: PREMIO FUNDACIÓN MARÍA ELENA WALSH – SARA FACIO
-image: ""
-video: /uploads/final.jpg
+image: /uploads/final.jpg
+video: ""
 credits: .
 ---
 **2025 TEATRO**
