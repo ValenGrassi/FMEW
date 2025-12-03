@@ -1,6 +1,6 @@
 ---
 order: 11
-title: "PREMIO 2025 “EL REINO DEL REVÉS”  "
+title: PREMIO 2025 “EL REINO DEL REVÉS"
 galeria:
   - /uploads/foto-premios-2025.png
 date: 04/12/2025
@@ -8,11 +8,13 @@ description: La Fundación Walsh – Facio lanza la edición 2025 de su convocat
   anual, en esta ocasión destinada a la escritura de obras de teatro.
 image2: /uploads/2.jpg
 ---
+ **\    PREMIO 2025 “EL REINO DEL REVÉS”**  
+
 **La Fundación María Elena Walsh – Sara Facio** lanza la **edición 2025** de su
 
 convocatoria anual, en esta ocasión destinada a la escritura de obras de teatro.
 
-**Género:**
+**Género:** 
 
 Artes dramáticas
 
@@ -64,8 +66,6 @@ con los datos requeridos en un único email dirigido a
 
 premioadultoswalshfacio@gmail.com.
 
-
-
 **Datos requeridos:**
 
 Seudónimo
@@ -86,15 +86,11 @@ Obra de Arte de Marina Dogliotti, emblema de la FMEW.
 
 El jurado podrá otorgar menciones si lo considerase conveniente.
 
-
-
 **Jurado:**
 
 Valeria Ambrosio, Norma Angeleri y Vivi Tellas.
 
 Sus fallos serán inapelables.
-
-
 
 **Cronograma:**
 
