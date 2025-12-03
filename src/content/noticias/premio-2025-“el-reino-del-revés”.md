@@ -8,9 +8,14 @@ description: La Fundación Walsh – Facio lanza la edición 2025 de su convocat
   anual, en esta ocasión destinada a la escritura de obras de teatro.
 image2: /uploads/2.jpg
 ---
- **\    PREMIO 2025 “EL REINO DEL REVÉS”**  
+\     **\    PREMIO FUNDACIÓN MARÍA ELENA WALSH - SARA FACIO**
 
-**La Fundación María Elena Walsh – Sara Facio** lanza la **edición 2025** de su
+ **\    2025 “EL REINO DEL REVÉS”**
+
+
+
+
+La Fundación **María Elena Walsh – Sara Facio** lanza la edición 2025 de su
 
 convocatoria anual, en esta ocasión destinada a la escritura de obras de teatro.
 
@@ -34,7 +39,7 @@ sentido la obra de teatro no deberá tomar el libro o la canción de María Elen
 
 de manera literal, sino como una excusa para invertir la realidad en términos
 
-de libertad y pensamiento crítico.   El disparate y el humor revelan lo que pasa
+de libertad y pensamiento crítico.   El disparate y el humor revelan lo que pasa
 
 desapercibido por la costumbre, convirtiéndose en un gesto de resistencia
 
@@ -78,7 +83,7 @@ Dirección de email
 
 Teléfono
 
-Premio:
+**Premio:**
 
 Equivalente en pesos argentinos a U$S 1.000 (Mil dólares EEUU).
 
@@ -94,9 +99,9 @@ Sus fallos serán inapelables.
 
 **Cronograma:**
 
-Recepción de obras: 22 al 30 junio de 2026.
+**Recepción de obras:** 22 al 30 junio de 2026.
 
-Juzgamiento: Julio 2026
+**Juzgamiento:** Julio 2026
 
 Notificación de resultados: a partir del 1 de agosto 2026
 
