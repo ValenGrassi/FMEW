@@ -6,7 +6,7 @@ galeria:
 date: 04/12/2025
 description: La Fundación Walsh – Facio lanza la edición 2025 de su convocatoria
   anual, en esta ocasión destinada a la escritura de obras de teatro.
-image2: /uploads/foto-premios-2025.png
+image2: /uploads/2.jpg
 ---
 **La Fundación María Elena Walsh – Sara Facio** lanza la **edición 2025** de su
 
