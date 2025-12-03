@@ -4,7 +4,7 @@ image: ""
 video: ""
 credits: Fundación Walsh Facio
 ---
-**PREMIO 2025 “EL REINO DEL REVÉS”**  
+ **\    PREMIO 2025 “EL REINO DEL REVÉS”**  
 
 **La Fundación María Elena Walsh – Sara Facio** lanza la **edición 2025** de su
 
