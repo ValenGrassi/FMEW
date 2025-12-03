@@ -1,16 +1,18 @@
 ---
 order: 11
-title: PREMIO 2025 “EL REINO DEL REVÉS"
+title: PREMIO FUNDACIÓN MARÍA ELENA WALSH - SARA FACIO
 galeria:
-  - /uploads/foto-premios-2025.png
+  - /uploads/escultura.jpg
 date: 04/12/2025
 description: La Fundación Walsh – Facio lanza la edición 2025 de su convocatoria
   anual, en esta ocasión destinada a la escritura de obras de teatro.
-image2: /uploads/2.jpg
+image2: /uploads/escultura.jpg
 ---
- **\    PREMIO FUNDACIÓN MARÍA ELENA WALSH - SARA FACIO**
+**PREMIO FUNDACIÓN MARÍA ELENA WALSH - SARA FACIO** 
 
-  **\    2025 “EL REINO DEL REVÉS”**
+**2025 TEATRO**   
+
+**“EL REINO DEL REVÉS”**
 
 *La Fundación* **María Elena Walsh – Sara Facio** *lanza la edición 2025 de su*
 
