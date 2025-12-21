@@ -3,7 +3,7 @@ order: 13
 title: "Concurso de Fotografía: Manuelita, ¿dónde estás? Buscando a la tortuga
   en Pehuajó"
 galeria:
-  - /uploads/mew-con-la-tortuga.jpg
+  - /uploads/manuelita.webp
 date: 21 de diciembre 2025
 description: El querido personaje de María Elena Walsh está presente en cada
   rincón de Pehuajó y forma parte de su identidad cultural. ¿Cómo encontrarla?
