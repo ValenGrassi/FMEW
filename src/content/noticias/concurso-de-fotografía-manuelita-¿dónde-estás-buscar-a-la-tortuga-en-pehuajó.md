@@ -1,7 +1,7 @@
 ---
 order: 13
-title: "Concurso de Fotografía: Manuelita, ¿dónde estás? Buscar a la tortuga en
-  Pehuajó"
+title: "Concurso de Fotografía: Manuelita, ¿dónde estás? Buscando a la tortuga
+  en Pehuajó"
 galeria:
   - /uploads/mew-con-la-tortuga.jpg
 date: 21 de diciembre 2025
