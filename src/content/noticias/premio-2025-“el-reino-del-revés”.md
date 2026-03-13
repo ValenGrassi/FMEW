@@ -14,21 +14,15 @@ image2: /uploads/final.jpg
 
 **“EL REINO DEL REVÉS”**
 
-
-
 **Convocatoria**
 
 La Fundación **María Elena Walsh – Sara Facio** lanza la edición 2025 de su
 
 convocatoria anual, en esta ocasión destinada a la escritura de obras de teatro.
 
-
-
 **Género**
 
 Artes dramáticas
-
-
 
 **Destinatarios**
 
@@ -37,8 +31,6 @@ Podrán participar uno o más autores por obra, mayores de 18 años, nacidos en
 Argentina o extranjeros con una residencia mínima de dos años en el país al
 
 momento de postularse.
-
-
 
 **Modalidad**
 
@@ -58,8 +50,6 @@ todo, “El Reino del revés” nos enseña a dudar y a recordar que cada certez
 
 puede girarse como un espejo para mostrarnos otra cara de la realidad.
 
-
-
 **Formato**
 
 La obra deberá ser original e inédita: no debe haber sido publicada,
@@ -74,17 +64,13 @@ New Roman, tamaño 12, interlineado doble, con márgenes de 3 cm en todos
 
 los lados del documento (estas condiciones son excluyentes).
 
-
-
 **Presentación**
 
 La obra deberá presentarse en formato PDF bajo un seudónimo, junto a un pdf
 
 con los datos requeridos en un único email dirigido a:
 
-premioadultoswalshfacio@gmail.com
-
-
+premiosadultoswalshfacio@gmail.com
 
 **Datos requeridos**
 
@@ -98,8 +84,6 @@ Dirección de email
 
 Teléfono
 
-
-
 **Premio**
 
 Equivalente en pesos argentinos a U$S 1.000 (Mil dólares EEUU).
@@ -108,15 +92,11 @@ Obra de Arte de Marina Dogliotti, emblema de la FMEW.
 
 El jurado podrá otorgar menciones si lo considerase conveniente.
 
-
-
 **Jurado**
 
 Valeria Ambrosio, Norma Angeleri y Vivi Tellas.
 
 Sus fallos serán inapelables.
-
-
 
 **Cronograma**
 
