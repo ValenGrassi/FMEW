@@ -19,5 +19,5 @@ La Fundación invita especialmente a teatros, talleres y espacios de formación 
 **A pedido de los participantes, la fecha de recepción de obras se prorrogó hasta el 30 de septiembre.**
 
   **Recepción de obras**: del 22 al 30 de septiembre de 2026
- ** Premio**: equivalente en pesos a USD 1.000 + obra de arte de Marina Dogliotti.
- ** Bases:** [fundacionwalshfacio.com](http://fundacionwalshfacio.com)
+  **Premio**: equivalente en pesos a USD 1.000 + obra de arte de Marina Dogliotti.
+  **Bases: [web](https://fundacionwalshfacio.com/noticias/premio-2025-el-reino-del-rev%C3%A9s/)**
