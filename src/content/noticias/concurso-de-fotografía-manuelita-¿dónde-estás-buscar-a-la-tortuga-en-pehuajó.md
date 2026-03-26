@@ -22,7 +22,6 @@ recorridos de los visitantes y la vida cotidiana de la ciudad. Es en todo moment
 ¿Cómo verla? ¿Cómo representarla? ¿Qué narrativas se tejen en relación a su imagen, a
 un recuerdo, a un mito o una anécdota? Esa es la invitación del concurso. 
 
-
 **Propuesta**
 
 Podrán presentarse hasta 10 fotografías, tomadas en Pehuajó y sus alrededores, con
@@ -37,7 +36,6 @@ Los menores de edad deberán adjuntar autorización de sus padres.
 
 La participación es libre y gratuita.
 
-
 **Premios**
 
 * 1º Premio: Colección completa de la nueva edición de la obra infantil de María
@@ -47,7 +45,6 @@ La participación es libre y gratuita.
 * 3º Premio: Libro “Manuelita, ¿dónde vas?”
 
   El jurado podrá otorgar menciones si lo considera conveniente.
-
 
 **Jurado**
 
@@ -68,7 +65,7 @@ Sus fallos serán inapelables.
 \
 **Modo de entrega**
 
-Se deberá enviar un único mail a concursomanuelita@gmail.com con dos adjuntos:
+Se deberá enviar un único mail a **premiomanuelita@gmail.com** con dos adjuntos:
 
 \    1. Carpeta con hasta 10 fotografías en formato JPG.
 
@@ -92,7 +89,6 @@ sitio web y redes de la Fundación y del Museo Regional Rafael Hernández. Poste
 **Derechos de uso** 
 
 Los autores premiados y los mencionados ceden a la Fundación Walsh-Facio y al Museo Regional Rafael Hernández los derechos de uso de sus imágenes exclusivamente para la difusión del evento (prensa, TV, redes sociales, mailings), manteniendo todos los demás derechos, de acuerdo con la Ley 11.723 de Propiedad Intelectual.
-
 
 **Otros requisitos**
 
