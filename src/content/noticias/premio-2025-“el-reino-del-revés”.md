@@ -3,7 +3,7 @@ order: 11
 title: PREMIO FUNDACIÓN MARÍA ELENA WALSH - SARA FACIO
 galeria:
   - /uploads/final.jpg
-date: 04/12/2025 - 20/3/2026
+date: "04/12/2025 - 20/3/2026 "
 description: La Fundación Walsh – Facio lanza la edición 2025 de su convocatoria
   anual, en esta ocasión destinada a la escritura de obras de teatro.
 image2: /uploads/final.jpg
@@ -104,7 +104,7 @@ Sus fallos serán inapelables.
 
 **Juzgamiento:** Octubre 2026
 
-**Notificación de resultados**: a partir del 1 de agosto 2026
+**Notificación de resultados**: a partir del 1 de noviembre 2026*
 
 Entrega de Premios: fecha y lugar a designar
 
@@ -122,4 +122,5 @@ La participación en este premio implica la aceptación total de estas bases. To
 
 situación no prevista será resuelta por la Fundación **Walsh – Facio**.\
 \
+
 * (Prorrogado)
