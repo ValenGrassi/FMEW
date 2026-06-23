@@ -1,0 +1,217 @@
+---
+import '@fontsource/playfair-display';
+---
+
+<section id="donaciones" class="mx-3 sm:mx-10 xl:m-auto max-w-7xl rounded-2xl bg-[#160303] my-10 px-6 md:px-16 py-16 md:py-24">
+
+  <!-- Título -->
+  <h2 class="font text-3xl md:text-4xl text-center mb-10">Donaciones</h2>
+
+  <!-- Info bancaria -->
+  <div class="max-w-2xl mx-auto text-center space-y-2 text-sm md:text-base leading-relaxed mb-12">
+    <p>Doná por transferencia bancaria</p>
+    <p class="font text-lg md:text-xl font-semibold">Banco Santander</p>
+    <p><span class="opacity-70">Razón Social:</span> FUNDACION MARIA ELENA WALSH</p>
+    <p><span class="opacity-70">CUIT:</span> 30-71581624-1</p>
+    <p><span class="opacity-70">Cuenta Corriente:</span> N° 438005914/9</p>
+    <p><span class="opacity-70">CBU:</span> 0720438220000000591490</p>
+    <p class="font text-lg md:text-xl mt-4">¡Gracias por tu ayuda!</p>
+  </div>
+
+  <!-- Botones -->
+  <div class="flex flex-col sm:flex-row justify-center gap-4 mb-16">
+    <a
+      href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=1234567890"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-sm font-bold border-white px-6 py-3 rounded border-2 hover:brightness-75 duration-150 text-center"
+    >
+      Doná con Mercado Pago
+    </a>
+    <a
+      href="https://www.mercadopago.com.ar/subscriptions"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-sm font-bold border-white px-6 py-3 rounded border-2 hover:brightness-75 duration-150 text-center"
+    >
+      Suscripción mensual
+    </a>
+  </div>
+
+  <!-- Formulario optativo -->
+  <div class="max-w-2xl mx-auto mb-16">
+    <p class="text-center text-sm opacity-70 mb-6">Formulario optativo: recibí información sobre todas nuestras actividades.</p>
+    <form class="space-y-4" action="#" method="post">
+      <div>
+        <label for="nombre" class="block text-sm opacity-80 mb-1">Nombre y Apellido</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          class="w-full bg-transparent border border-white/40 rounded px-4 py-2 text-sm focus:outline-none focus:border-white placeholder-white/30"
+          placeholder="Tu nombre y apellido"
+        />
+      </div>
+      <div>
+        <label for="email" class="block text-sm opacity-80 mb-1">Correo electrónico (E-mail)</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="w-full bg-transparent border border-white/40 rounded px-4 py-2 text-sm focus:outline-none focus:border-white placeholder-white/30"
+          placeholder="tucorreo@ejemplo.com"
+        />
+      </div>
+      <div>
+        <label for="telefono" class="block text-sm opacity-80 mb-1">Teléfono</label>
+        <input
+          type="tel"
+          id="telefono"
+          name="telefono"
+          class="w-full bg-transparent border border-white/40 rounded px-4 py-2 text-sm focus:outline-none focus:border-white placeholder-white/30"
+          placeholder="+54 11 0000-0000"
+        />
+      </div>
+      <div class="flex items-start gap-3 pt-1">
+        <input
+          type="checkbox"
+          id="info"
+          name="info"
+          class="mt-0.5 accent-white cursor-pointer"
+        />
+        <label for="info" class="text-sm opacity-80 cursor-pointer">
+          Recibí información sobre todas nuestras actividades.
+        </label>
+      </div>
+      <div class="flex justify-center pt-2">
+        <button
+          type="submit"
+          class="text-sm font-bold border-white px-8 py-2 rounded border-2 hover:brightness-75 duration-150"
+        >
+          Enviar
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Acordeón Preguntas Frecuentes -->
+  <div class="max-w-2xl mx-auto">
+    <h3 class="font text-2xl md:text-3xl text-center mb-8">Preguntas frecuentes</h3>
+    <div class="space-y-3" id="faq-accordion">
+
+      <details class="border border-white/20 rounded-lg group">
+        <summary class="flex justify-between items-center px-5 py-4 cursor-pointer list-none text-sm font-medium hover:bg-white/5 duration-150 rounded-lg">
+          ¿Cuál es la misión de la Fundación Walsh-Facio?
+          <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180">▾</span>
+        </summary>
+        <div class="px-5 pb-5 text-sm opacity-80 leading-relaxed">
+          La Fundación Walsh Facio desarrolla programas educativos y culturales de carácter permanente y alcance federal, orientados a cumplir su misión de preservar, difundir y actualizar el legado de María Elena Walsh y Sara Facio.
+        </div>
+      </details>
+
+      <details class="border border-white/20 rounded-lg group">
+        <summary class="flex justify-between items-center px-5 py-4 cursor-pointer list-none text-sm font-medium hover:bg-white/5 duration-150 rounded-lg">
+          ¿Qué programas desarrolla la Fundación Walsh Facio relacionados con María Elena?
+          <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180">▾</span>
+        </summary>
+        <div class="px-5 pb-5 text-sm opacity-80 leading-relaxed space-y-3">
+          <p>El programa de la Red de Escuelas Walsh: 123 instituciones educativas de todo el país que llevan el nombre de María Elena Walsh. Son jardines de infantes, escuelas primarias y secundarias, instituciones de educación especial y bibliotecas escolares en los que desarrolla la promoción de lectura, escritura y acceso a la obra de María Elena Walsh. Hemos donado más de 1.600 libros en todo del país, también a instituciones educativas y culturales de la Argentina y del exterior que no llevan su nombre.</p>
+          <p>Creamos el Premio Educativo Fundación Walsh Facio, de edición anual, como estímulo de producción artística y literaria a través de fotografía, literatura y artes visuales, otorgando premios en dinero y colecciones de libros.</p>
+          <p>Instalamos el Premio Walsh Facio para adultos, orientado a las disciplinas de la literatura y la fotografía. Llevamos cinco ediciones entregando un reconocimiento económico equivalente a 1000 dólares estadounidenses. Actualmente se encuentra abierta la convocatoria El Reino del Revés, dedicada al teatro.</p>
+          <p>Una de las acciones más relevantes ha sido la articulación con el ámbito académico. En colaboración con la Biblioteca Nacional Mariano Moreno, organizamos en 2025 las primeras Jornadas Nacionales dedicadas a su obra: María Elena Walsh: La ruptura. Una nueva edición se llevará a cabo en La Biblioteca Nacional desde el 25 hasta el 28 de agosto de 2026: María Elena Walsh: La revelación.</p>
+        </div>
+      </details>
+
+      <details class="border border-white/20 rounded-lg group">
+        <summary class="flex justify-between items-center px-5 py-4 cursor-pointer list-none text-sm font-medium hover:bg-white/5 duration-150 rounded-lg">
+          ¿Qué programas tiene previsto para este año?
+          <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180">▾</span>
+        </summary>
+        <div class="px-5 pb-5 text-sm opacity-80 leading-relaxed">
+          El 1° de julio lanzaremos Manuelita viaja al país de las infancias, una acción federal de participación y escritura infantil para todo el país, que saldrá simbólicamente desde Pehuajó hacia los cuatro puntos cardinales del país con una misión: escuchar las voces de las infancias. Buzones físicos y virtuales se instalarán en escuelas y puntos culturales que recibirán cartas escritas por niñas y niños acerca de su vida cotidiana, sus sueños y su visión del futuro. Los objetivos son: estimular la lectura y la escritura; promover la participación infantil; preservar las voces de las infancias contemporáneas y construir un archivo federal de experiencias y miradas infantiles.
+        </div>
+      </details>
+
+      <details class="border border-white/20 rounded-lg group">
+        <summary class="flex justify-between items-center px-5 py-4 cursor-pointer list-none text-sm font-medium hover:bg-white/5 duration-150 rounded-lg">
+          ¿Qué programas tiene la Fundación para la difusión y conservación de la obra de Sara Facio?
+          <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180">▾</span>
+        </summary>
+        <div class="px-5 pb-5 text-sm opacity-80 leading-relaxed space-y-3">
+          <p>Desde la incorporación de la obra de Sara Facio al patrimonio de la Fundación, hemos impulsado la designación de la Fotogalería con su nombre; una exposición con sus fotos en la Feria del Libro de India, la incorporación de su legado a la Caja de las Letras del Instituto Cervantes; la inauguración de una muestra conjunta con María Elena Walsh en el Instituto Cervantes de Madrid.</p>
+          <p>El proyecto de digitalización integral de sus negativos fue presentado y aprobado en Mecenazgo para garantizar la conservación de su archivo, respetar la organización original concebida por Sara Facio y ampliar las posibilidades de investigación, circulación y conocimiento de su obra. Representa un primer paso, que requiere ahora del acompañamiento y de articulación con el sector privado.</p>
+        </div>
+      </details>
+
+      <details class="border border-white/20 rounded-lg group">
+        <summary class="flex justify-between items-center px-5 py-4 cursor-pointer list-none text-sm font-medium hover:bg-white/5 duration-150 rounded-lg">
+          ¿Cómo se utilizan las donaciones recibidas?
+          <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180">▾</span>
+        </summary>
+        <div class="px-5 pb-5 text-sm opacity-80 leading-relaxed">
+          Las donaciones se destinan al sostenimiento y desarrollo de los programas, actividades culturales, educativas y comunitarias impulsadas por la Fundación María Elena Walsh - Sara Facio.
+        </div>
+      </details>
+
+      <details class="border border-white/20 rounded-lg group">
+        <summary class="flex justify-between items-center px-5 py-4 cursor-pointer list-none text-sm font-medium hover:bg-white/5 duration-150 rounded-lg">
+          ¿Puedo cambiar el monto de mi colaboración mensual?
+          <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180">▾</span>
+        </summary>
+        <div class="px-5 pb-5 text-sm opacity-80 leading-relaxed">
+          Sí. Podés modificar el monto de tu aporte mensual en cualquier momento comunicándote con la Fundación.
+        </div>
+      </details>
+
+      <details class="border border-white/20 rounded-lg group">
+        <summary class="flex justify-between items-center px-5 py-4 cursor-pointer list-none text-sm font-medium hover:bg-white/5 duration-150 rounded-lg">
+          ¿Cómo solicito un comprobante de mi donación?
+          <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180">▾</span>
+        </summary>
+        <div class="px-5 pb-5 text-sm opacity-80 leading-relaxed">
+          Podés solicitar tu comprobante enviando un correo a <a href="mailto:fundacionmariaelenawalsh@gmail.com" class="underline hover:opacity-60">fundacionmariaelenawalsh@gmail.com</a> o contactándonos por WhatsApp.
+        </div>
+      </details>
+
+      <details class="border border-white/20 rounded-lg group">
+        <summary class="flex justify-between items-center px-5 py-4 cursor-pointer list-none text-sm font-medium hover:bg-white/5 duration-150 rounded-lg">
+          ¿Puedo realizar una donación por única vez?
+          <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180">▾</span>
+        </summary>
+        <div class="px-5 pb-5 text-sm opacity-80 leading-relaxed">
+          Sí. Además de las colaboraciones mensuales, también podés realizar una donación única cuando lo desees.
+        </div>
+      </details>
+
+      <details class="border border-white/20 rounded-lg group">
+        <summary class="flex justify-between items-center px-5 py-4 cursor-pointer list-none text-sm font-medium hover:bg-white/5 duration-150 rounded-lg">
+          ¿Cómo puedo participar en las actividades y programas de la Fundación?
+          <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180">▾</span>
+        </summary>
+        <div class="px-5 pb-5 text-sm opacity-80 leading-relaxed">
+          Podés informarte sobre nuestras actividades y sumarte a ellas a través de nuestros canales de comunicación y redes sociales, o contactándote directamente con la Fundación.
+        </div>
+      </details>
+
+      <details class="border border-white/20 rounded-lg group">
+        <summary class="flex justify-between items-center px-5 py-4 cursor-pointer list-none text-sm font-medium hover:bg-white/5 duration-150 rounded-lg">
+          ¿Cómo puedo contactar a la Fundación María Elena Walsh - Sara Facio?
+          <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180">▾</span>
+        </summary>
+        <div class="px-5 pb-5 text-sm opacity-80 leading-relaxed space-y-1">
+          <p>Paraguay 1480 PB A, Buenos Aires, Argentina (C1061ABB)</p>
+          <p>+54 9 11 5175-7992</p>
+          <p><a href="mailto:fundacionmariaelenawalsh@gmail.com" class="underline hover:opacity-60">fundacionmariaelenawalsh@gmail.com</a></p>
+        </div>
+      </details>
+
+    </div>
+  </div>
+
+</section>
+
+<style>
+  .font {
+    font-family: "Playfair Display", sans-serif;
+  }
+</style>
