@@ -10,4 +10,11 @@ export default defineConfig({
     // opcional: podes poner collections acá si querés importar
     // collections: import('./src/content/config.ts')
   },
+  vite: {
+    server: {
+      allowedHosts: [
+        'sb-6wal1x8u86uh.vercel.run' // <-- El host de tu v0
+      ]
+    }
+  }
 });
