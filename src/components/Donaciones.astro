@@ -1,0 +1,82 @@
+---
+import { Image } from 'astro:assets';
+import Donacioness from "../assets/donaciones.png"
+import SaraIndex from "../assets/saraIndex.png"
+import '@fontsource/playfair-display';
+---
+
+<div class="mx-3 sm:mx-10 xl:m-auto max-w-7xl rounded-2xl bg-[#160303]">
+  <div class="flex flex-col py-16 md:py-20 md:flex-row items-stretch justify-center max-w-6xl m-auto px-6 md:px-10 xl:px-0 gap-12 mb-12 md:mb-20">
+    
+    <!-- Video -->
+    <div class="flex-1 flex justify-center">
+      <div class="w-fit flex justify-center">
+        <a href="/#donaciones"><Image alt={"Donaciones"} src={Donacioness} class="rounded-md max-w-full h-auto object-contain" /></a>
+      </div>
+    </div>
+
+    <!-- Texto -->
+    <div class="flex-1 flex flex-col justify-between self-stretch md:py-10">
+      <div class="space-y-6">
+        <h1 class="font text-3xl md:text-4xl">
+          Suma tus esfuerzos a:</h1>
+        
+        <div class="prose prose-invert max-w-none [&_strong]:font-normal">
+          -Preservar y difundir el legado de María Elena Walsh y Sara Facio<br>
+          -Hacerlos dialogar con el presente para aportar a la cultura
+          democrática, los derechos humanos y el <b>feminismo</b>.<br>
+          -El cuidado permanente de ambos patrimonios                 
+        </div>
+        <h1 class="font text-3xl md:text-4xl">
+          Programas permanentes:</h1>
+        
+        <div class="prose prose-invert max-w-none [&_strong]:font-normal">
+          -Red de Escuelas Walsh: 
+          123 instituciones educativas de todo el
+          país.<br>
+          -Donación de libros:
+          Desde 2018 mas de 1.600 libros donados a
+          instituciones educativas y culturales de
+          Argentina y del exterior.<br>
+          -Premio Fundación Walsh-Facio<br>
+          -Premio Educativo Fundación Walsh
+          Facio<br>
+          -Cuidado de ambos patrimonios                 
+        </div>
+        <h1 class="font text-3xl md:text-4xl">
+          Actividades de 2026:</h1>
+        
+        <div class="prose prose-invert max-w-none [&_strong]:font-normal">
+          -Muestra de Sara Facio: 
+          en la Feria Internacional del Libro de
+          Calcuta, enero 2026<br>
+          -La Palabra y la Mirada:
+Exposición de María Elena Walsh y Sara
+Facio en el Instituto Cervantes de Madrid,
+del 22 de abril al 26 de julio.<br>
+-Manuelita Viaja al País de las Infancias:
+Accion federal de participación, lectura y
+escritura, de julio a septiembre.<br>
+-Jornadas Académicas:
+Reflexiones sobre la obra de María Elena
+en la Blibioteca Nacional, última semana de
+agosto <br>
+-Digitalización de los negativos de Sara
+Facio: 
+Proyecto de mecenazgo aprobado.
+
+        </div>
+
+      </div>
+
+      <div class="mt-8 space-y-3 text-sm leading-relaxed font-medium">
+        Fundación María Elena Walsh - Sara Facio      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .font {
+    font-family: "Playfair Display", sans-serif;
+  }
+</style>

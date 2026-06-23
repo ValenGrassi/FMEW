@@ -20,6 +20,7 @@ import logoblack from "../assets/logo black.jpeg"
 import Noticiamd from "../components/Noticiamd.astro";
 import Jornadas from "../assets/rupturaRecortado.jpeg"
 import { getCollection } from "astro:content";
+import Donaciones from "../components/Donaciones.astro";
 
 
 const noticias = await getCollection("noticias");
@@ -41,8 +42,8 @@ const ultimasNoticias = noticias.slice(0, 2);
 		<Enlaces/>
 		<h2 class="text-center font text-2xl">María Elena Walsh</h2>
 		<EnlacesMEW/>
-		<!-- <h2 class="text-center font text-2xl">Sara Facio</h2> -->
-		<!-- <EnlacesSara/> -->
+		<h2 class="text-center font text-2xl">Sara Facio</h2>
+		<EnlacesSara/>
 		<h2 class="text-center font text-2xl">Otros Enlaces</h2>
 		<Enlaces2/>
 		<h3 id="noticias" class="text-center font text-2xl">Últimas Noticias</h3>
@@ -60,6 +61,7 @@ const ultimasNoticias = noticias.slice(0, 2);
 		<div class="flex justify-center mb-20">
 			<a href="/noticias" class="text-sm font-bold border-white px-6 py-2 rounded border-2 hover:brightness-75 duration-150">VER TODAS</a>
 		</div>
+		<Donaciones/>
 		<Footer/>
     </div>
 </Layout>
