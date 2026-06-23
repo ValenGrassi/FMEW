@@ -16,7 +16,16 @@ export default defineConfig({
   },
   vite: {
     server: {
-      allowedHosts: 'all',
+      // 1. Permitimos explícitamente cualquier subdominio que use Vercel/v0
+      allowedHosts: [
+        '.vercel.run',
+        'localhost'
+      ],
+      // 2. Configuramos el WebSocket de manera flexible
+      hmr: {
+        protocol: 'wss',
+        clientPort: 443
+      }
     }
   }
 });
