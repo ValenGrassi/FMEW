@@ -12,9 +12,7 @@ export default defineConfig({
   },
   vite: {
     server: {
-      allowedHosts: [
-        'sb-7evdncbt7esg.vercel.run' // <-- El host de tu v0
-      ]
+      allowedHosts: 'all' // <-- Si falta esto, v0 se bloqueará en desarrollo aunque Vercel funcione en producción
     }
   }
 });
