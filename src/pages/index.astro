@@ -21,6 +21,7 @@ import Noticiamd from "../components/Noticiamd.astro";
 import Jornadas from "../assets/rupturaRecortado.jpeg"
 import { getCollection } from "astro:content";
 import Donaciones from "../components/Donaciones.astro";
+import SeccionDonaciones from "../components/SeccionDonaciones.astro";
 
 
 const noticias = await getCollection("noticias");
@@ -62,6 +63,7 @@ const ultimasNoticias = noticias.slice(0, 2);
 			<a href="/noticias" class="text-sm font-bold border-white px-6 py-2 rounded border-2 hover:brightness-75 duration-150">VER TODAS</a>
 		</div>
 		<Donaciones/>
+		<SeccionDonaciones/>
 		<Footer/>
     </div>
 </Layout>
