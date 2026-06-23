@@ -29,7 +29,14 @@ import { Campana } from "../components/react/Campana";
             <HeaderButton client:idle href={"/quienes-somos"} name={"qs"} pathname={pathname}>
                 Quiénes somos
             </HeaderButton>
-            <li class="px-4 py-2"><a href="https://tiendawalshfacio.com/" target="_blank" >Tienda nube</a></li>
+            <li class="px-3 py-2">
+              <a
+                href="/#donaciones"
+                class="donate-btn text-xs uppercase tracking-widest font-medium border border-white/40 px-4 py-2 rounded hover:bg-white hover:text-[#231F20] transition-all duration-200"
+              >
+                Donaciones
+              </a>
+            </li>
             <Campana client:idle/>
         </div>
         <MobileHeader client:idle/>
