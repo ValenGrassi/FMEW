@@ -10,114 +10,83 @@ import '@fontsource/playfair-display';
 
   <div class="grid md:grid-cols-2 gap-16 mb-20">
 
-    <!-- Columna izquierda: info bancaria -->
     <div>
-      <p class="text-sm uppercase tracking-wide opacity-70 mb-6 font-semibold">Transferencia bancaria</p>
-      <div class="space-y-4 text-sm leading-relaxed">
-        <div class="flex flex-col gap-1 pb-4 border-b border-white/10">
-          <span class="opacity-50 text-xs uppercase tracking-wider">Banco</span>
-          <span class="font text-lg">Banco Santander</span>
+      <p class="text-sm uppercase tracking-wide opacity-70 mb-6 font-semibold">Mantenete informado <span class="normal-case tracking-normal opacity-50 text-xs ml-1">— optativo</span></p>
+      <form class="space-y-4" action="#" method="post">
+        <div>
+          <label for="nombre" class="block text-xs opacity-60 mb-1.5 uppercase tracking-wider">Nombre y Apellido</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            class="w-full bg-white/5 border border-white/15 rounded px-4 py-2.5 text-sm focus:outline-none focus:border-white/50 placeholder-white/20 transition-colors duration-200"
+            placeholder="Tu nombre y apellido"
+          />
         </div>
-        <div class="flex flex-col gap-1 pb-4 border-b border-white/10">
-          <span class="opacity-50 text-xs uppercase tracking-wider">Razón Social</span>
-          <span>FUNDACION MARIA ELENA WALSH</span>
+        <div>
+          <label for="email" class="block text-xs opacity-60 mb-1.5 uppercase tracking-wider">Correo electrónico</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="w-full bg-white/5 border border-white/15 rounded px-4 py-2.5 text-sm focus:outline-none focus:border-white/50 placeholder-white/20 transition-colors duration-200"
+            placeholder="tucorreo@ejemplo.com"
+          />
         </div>
-        <div class="flex flex-col gap-1 pb-4 border-b border-white/10">
-          <span class="opacity-50 text-xs uppercase tracking-wider">CUIT</span>
-          <span>30-71581624-1</span>
+        <div>
+          <label for="telefono" class="block text-xs opacity-60 mb-1.5 uppercase tracking-wider">Teléfono</label>
+          <input
+            type="tel"
+            id="telefono"
+            name="telefono"
+            class="w-full bg-white/5 border border-white/15 rounded px-4 py-2.5 text-sm focus:outline-none focus:border-white/50 placeholder-white/20 transition-colors duration-200"
+            placeholder="+54 11 0000-0000"
+          />
         </div>
-        <div class="flex flex-col gap-1 pb-4 border-b border-white/10">
-          <span class="opacity-50 text-xs uppercase tracking-wider">Cuenta Corriente</span>
-          <span>N° 438005914/9</span>
+        <div class="flex items-start gap-3 pt-1">
+          <input type="checkbox" id="info" name="info" class="mt-0.5 accent-white cursor-pointer" />
+          <label for="info" class="text-xs opacity-70 cursor-pointer leading-relaxed">
+            Quiero recibir información sobre todas las actividades de la Fundación.
+          </label>
         </div>
-        <div class="flex flex-col gap-1 pb-4 border-b border-white/10">
-          <span class="opacity-50 text-xs uppercase tracking-wider">CBU</span>
-          <span class="font-mono tracking-wide">0720438220000000591490</span>
-        </div>
+        <button
+          type="submit"
+          class="text-xs uppercase tracking-widest font-medium border border-white/30 px-8 py-2.5 rounded hover:bg-white/8 hover:border-white/60 transition-colors duration-200"
+        >
+          Enviar
+        </button>
+      </form>
+    </div>
+    <!-- Columna izquierda: Botones de pago -->
+    <div>
+      <p class="text-sm uppercase tracking-wide opacity-70 mb-6 font-semibold">Pago digital</p>
+      <div class="flex flex-col sm:flex-row gap-3">
+        <a
+          href="https://donaronline.org/fundacion-maria-elena-walsh-sara-facio/la-cultura-como-derecho-no-como-privilegio"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex-1 text-sm font-medium text-white bg-[#08a2e2] px-6 py-3 rounded text-center hover:bg-[#0693ca] transition-colors duration-200"
+        >
+          Sumá tu apoyo
+        </a>
+        <!-- <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex-1 text-sm font-medium border border-white/50 px-6 py-3 rounded text-center hover:bg-white/5 transition-colors duration-200"
+        >
+          Suscripción mensual
+        </a> -->
       </div>
     </div>
 
-    <!-- Columna derecha: botones + formulario -->
-    <div class="flex flex-col gap-10">
+    <!-- Columna derecha: Formulario -->
 
-      <!-- Botones de pago -->
-      <div>
-        <p class="text-sm uppercase tracking-wide opacity-70 mb-6 font-semibold">Pago digital</p>
-        <div class="flex flex-col sm:flex-row gap-3">
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="flex-1 text-sm font-medium text-white bg-[#08a2e2] px-6 py-3 rounded text-center hover:bg-[#0693ca] transition-colors duration-200"
-          >
-            Doná con Mercado Pago
-          </a>
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="flex-1 text-sm font-medium border border-white/50 px-6 py-3 rounded text-center hover:bg-white/5 transition-colors duration-200"
-          >
-            Suscripción mensual
-          </a>
-        </div>
-      </div>
-
-      <!-- Formulario -->
-      <div>
-        <p class="text-sm uppercase tracking-wide opacity-70 mb-6 font-semibold">Mantenete informado <span class="normal-case tracking-normal opacity-50 text-xs ml-1">— optativo</span></p>
-        <form class="space-y-4" action="#" method="post">
-          <div>
-            <label for="nombre" class="block text-xs opacity-60 mb-1.5 uppercase tracking-wider">Nombre y Apellido</label>
-            <input
-              type="text"
-              id="nombre"
-              name="nombre"
-              class="w-full bg-white/5 border border-white/15 rounded px-4 py-2.5 text-sm focus:outline-none focus:border-white/50 placeholder-white/20 transition-colors duration-200"
-              placeholder="Tu nombre y apellido"
-            />
-          </div>
-          <div>
-            <label for="email" class="block text-xs opacity-60 mb-1.5 uppercase tracking-wider">Correo electrónico</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              class="w-full bg-white/5 border border-white/15 rounded px-4 py-2.5 text-sm focus:outline-none focus:border-white/50 placeholder-white/20 transition-colors duration-200"
-              placeholder="tucorreo@ejemplo.com"
-            />
-          </div>
-          <div>
-            <label for="telefono" class="block text-xs opacity-60 mb-1.5 uppercase tracking-wider">Teléfono</label>
-            <input
-              type="tel"
-              id="telefono"
-              name="telefono"
-              class="w-full bg-white/5 border border-white/15 rounded px-4 py-2.5 text-sm focus:outline-none focus:border-white/50 placeholder-white/20 transition-colors duration-200"
-              placeholder="+54 11 0000-0000"
-            />
-          </div>
-          <div class="flex items-start gap-3 pt-1">
-            <input type="checkbox" id="info" name="info" class="mt-0.5 accent-white cursor-pointer" />
-            <label for="info" class="text-xs opacity-70 cursor-pointer leading-relaxed">
-              Quiero recibir información sobre todas las actividades de la Fundación.
-            </label>
-          </div>
-          <button
-            type="submit"
-            class="text-xs uppercase tracking-widest font-medium border border-white/30 px-8 py-2.5 rounded hover:bg-white/8 hover:border-white/60 transition-colors duration-200"
-          >
-            Enviar
-          </button>
-        </form>
-      </div>
-
-    </div>
   </div>
 
   <!-- Mensaje de agradecimiento centrado -->
   <div class="text-center mb-20 py-8">
-    <p class="font text-3xl opacity-85">¡Gracias por tu ayuda!</p>
+    <p class="font text-3xl opacity-85">¡Gracias por tu apoyo!</p>
   </div>
 
   <!-- Separador -->
