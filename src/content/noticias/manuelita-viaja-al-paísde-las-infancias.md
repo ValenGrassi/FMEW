@@ -14,9 +14,9 @@ Una tortuga federal para escuchar a las niñas y niños de la Argentina
 
 La Fundación WalshFacio impulsa un proyecto de participación y escritura infantil que recorreráel país a través de cartas, buzones físicos y virtual.
 
-Manuelita, la tortuga más querida de generaciones enteras de argentinos, emprende un nuevo viaje y sudestino es el país de las infancias. Con un mapa trazado por la imaginación y una misión clara —escuchar a los más chicos—, la Fundación Walsh Facio lanza “**Manuelita viaja al país de las infancias**”, una acción federal departicipación, lectura y escritura destinada a niños y niñas de toda laArgentina.
+Manuelita, la tortuga más querida de generaciones enteras de argentinos, emprende un nuevo viaje y sudestino es el país de las infancias. Con un mapa trazado por la imaginación y una misión clara —escuchar a los más chicos—, la Fundación Walsh Facio lanza “**Manuelita viaja al país de las infancias**”, una acción federal de participación, lectura y escritura destinada a niños y niñas de toda laArgentina.
 
-El proyecto se activadesde la red comunitaria creada por la Fundación, las “Escuelas Walsh”, con unaconvocatoria abierta a todas las instituciones educativas del país. A partir dejulio, se instalarán buzones físicos en escuelas y espacios adheridos, ademásde un buzón virtual accesible desde cualquier punto del país: ***cartaparamanuelita@gmail.com***
+El proyecto se activa desde la red comunitaria creada por la Fundación, las “Escuelas Walsh”, con una convocatoria abierta a todas las instituciones educativas del país. A partir dejulio, se instalarán buzones físicos en escuelas y espacios adheridos, además de un buzón virtual accesible desde cualquier punto del país: ***cartaparamanuelita@gmail.com***
 
 **La carta de Manuelita para las niñas y niños:**
 
@@ -48,17 +48,17 @@ Edición de un libro digital que incluya un mapa federal para que las escuelas p
 
 Preservar las voces, miradas y emociones de las infancias contemporáneas. Construir un archivo federal de experiencias infantiles.
 
-Un cierre en BuenosAires
+**Un cierre en BuenosAires**
 
 Tras su recorrido federal, Manuelita llegará a la Ciudad de Buenos Aires en primavera y se celebrará el regreso de la tortuga viajera con las cartas recibidas y las experiencias compartidas.
 
-**Institucionesadheridas**
+**Institucionesa dheridas**
 
-Entrelas organizaciones que ya acompañan la iniciativa se encuentran: CEDILIJ (Centro de Difusión e Investigación de Literatura Infantil y Juvenil), Casa delas Infancias María Elena Walsh, ALIJA (Asociación de Literatura Infantil yJuvenil de la Argentina), República de los Niños, Teatro San Martín, Biblioteca Nacional Mariano Moreno, MUNTREF – Museos de la Universidad Nacional de Tres deFebrero. Dirección General de Promoción del Libro, Bibliotecas y la Cultura del Ministerio de Cultura del Gobierno de la Ciudad de Buenos Aires.
+Entrelas organizaciones que ya acompañan la iniciativa se encuentran: CEDILIJ (Centro de Difusión e Investigación de Literatura Infantil y Juvenil), Casa de las Infancias María Elena Walsh, ALIJA (Asociación de Literatura Infantil y Juvenil de la Argentina), República de los Niños, Teatro San Martín, Biblioteca Nacional Mariano Moreno, MUNTREF – Museos de la Universidad Nacional de Tres de Febrero. Dirección General de Promoción del Libro, Bibliotecas y la Cultura del Ministerio de Cultura del Gobierno de la Ciudad de Buenos Aires.
 
  **Contacto:**
 
-FundaciónMaría Elena Walsh - Sara Facio
+Fundación María Elena Walsh - Sara Facio
 
 Paraguay1480 PB A, Buenos Aires (C1061ABB)
 
