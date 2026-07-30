@@ -4,7 +4,6 @@ image: /uploads/whatsapp-image-2026-07-30-at-11.59.14-am.jpeg
 video: ""
 credits: .
 ---
-
 **BASES Y CONDICIONES** **2025/26 TEATRO**
 
 A pedido de numerosos participantes, la Fundación, en uso de las facultades previstas en las bases, comunica:
@@ -15,21 +14,13 @@ La duración estimada de la obra deberá ser de entre 30 y 60 minutos, y puede e
 
 La Fundación María Elena Walsh – Sara Facio lanza la edición 2025/26 de su convocatoria anual, en esta ocasión destinada a la escritura de obras de teatro.
 
- 
-
 **Género**
 
 Artes dramáticas
 
- 
-
-
-
 **Destinatarios**
 
 Podrán participar uno o más autores por obra, mayores de 18 años, nacidos en Argentina o extranjeros con una residencia mínima de dos años en el país al momento de postularse.
-
- 
 
 **Modalidad**
 
@@ -41,8 +32,6 @@ El disparate y el humor revelan lo que pasa desapercibido por la costumbre, conv
 
 Por sobre todo, “El Reino del revés” nos enseña a dudar y a recordar que cada certeza puede girarse como un espejo para mostrarnos otra cara de la realidad.
 
- 
-
 **Formato**
 
 La obra deberá ser original e inédita: no debe haber sido publicada, representada ni difundida por ningún medio (incluyendo plataformas digitales).
@@ -53,18 +42,11 @@ La duración estimada deberá ser de 60 minutos.
 
 El texto debe estar redactado en castellano, en formato Times New Roman, tamaño 12, interlineado doble, con márgenes de 3 cm en todos los lados del documento (estas condiciones son excluyentes).
 
- 
-
-
-
-
 **Presentación**
 
 La obra deberá presentarse en formato PDF bajo un seudónimo, junto a un pdf con los datos requeridos en un único email dirigido a:
 
 premiosadultoswalshfacio@gmail.com
-
- 
 
 **Datos requeridos**
 
@@ -74,8 +56,6 @@ Título de la obra
 Dirección de email
 Teléfono
 
- 
-
 **Premio**
 
 Equivalente en pesos argentinos a U$S 1.000 (Mil dólares EEUU).
@@ -84,17 +64,11 @@ Obra de Arte de Marina Dogliotti, emblema de la FMEW.
 
 El jurado podrá otorgar menciones si lo considerase conveniente.
 
- 
-
-
-
 **Jurado**
 
 Valeria Ambrosio, Norma Angeleri y Vivi Tellas.
 
 Sus fallos serán inapelables.
-
- 
 
 **Cronograma**
 
@@ -103,24 +77,12 @@ Juzgamiento: octubre 2026
 Notificación de resultados: a partir del 1 de noviembre 2026\*
 Entrega de Premios: fecha y lugar a designar
 
- 
-
 **Derechos de uso**
 
 Las obras premiadas o mencionadas ceden a la Fundación el derecho de uso para difusión (prensa, redes, TV, mail), por el plazo de un (1) año, sin perder sus derechos de autor según la Ley 11.723.
-
- 
 
 **Sobre la aceptación**
 
 La participación en este premio implica la aceptación total de estas bases.
 
 Toda situación no prevista será resuelta por la Fundación Walsh – Facio.
-
- 
-
-**Fundación María Elena Walsh - Sara Facio**
-
-Paraguay 1480 PB A, Buenos Aires, Argentina (C1061ABB)
-
-+54 9 11 5175-7992
