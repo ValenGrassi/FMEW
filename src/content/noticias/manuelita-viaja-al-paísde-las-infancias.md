@@ -12,7 +12,7 @@ image2: /uploads/whatsapp-image-2026-07-30-at-3.59.27-pm.jpeg
 
 Una tortuga federal para escuchar a las niñas y niños de la Argentina
 
-La Fundación WalshFacio impulsa un proyecto de participación y escritura infantil que recorreráel país a través de cartas, buzones físicos y virtual.
+La Fundación Walsh-Facio impulsa un proyecto de participación y escritura infantil que recorreráel país a través de cartas, buzones físicos y virtual.
 
 Manuelita, la tortuga más querida de generaciones enteras de argentinos, emprende un nuevo viaje y sudestino es el país de las infancias. Con un mapa trazado por la imaginación y una misión clara —escuchar a los más chicos—, la Fundación Walsh Facio lanza “**Manuelita viaja al país de las infancias**”, una acción federal de participación, lectura y escritura destinada a niños y niñas de toda laArgentina.
 
