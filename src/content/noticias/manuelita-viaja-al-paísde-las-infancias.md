@@ -12,7 +12,7 @@ image2: /uploads/whatsapp-image-2026-07-30-at-3.59.27-pm.jpeg
 
 Una tortuga federal para escuchar a las niñas y niños de la Argentina
 
-La Fundación Walsh-Facio impulsa un proyecto de participación y escritura infantil que recorreráel país a través de cartas, buzones físicos y virtual.
+La Fundación Walsh-Facio impulsa un proyecto de participación y escritura infantil que recorrerá el país a través de cartas, buzones físicos y virtual.
 
 Manuelita, la tortuga más querida de generaciones enteras de argentinos, emprende un nuevo viaje y sudestino es el país de las infancias. Con un mapa trazado por la imaginación y una misión clara —escuchar a los más chicos—, la Fundación Walsh Facio lanza “**Manuelita viaja al país de las infancias**”, una acción federal de participación, lectura y escritura destinada a niños y niñas de toda laArgentina.
 
@@ -54,7 +54,7 @@ Tras su recorrido federal, Manuelita llegará a la Ciudad de Buenos Aires en pri
 
 **Institucionesa dheridas**
 
-Entrelas organizaciones que ya acompañan la iniciativa se encuentran: CEDILIJ (Centro de Difusión e Investigación de Literatura Infantil y Juvenil), Casa de las Infancias María Elena Walsh, ALIJA (Asociación de Literatura Infantil y Juvenil de la Argentina), República de los Niños, Teatro San Martín, Biblioteca Nacional Mariano Moreno, MUNTREF – Museos de la Universidad Nacional de Tres de Febrero. Dirección General de Promoción del Libro, Bibliotecas y la Cultura del Ministerio de Cultura del Gobierno de la Ciudad de Buenos Aires.
+Entre las organizaciones que ya acompañan la iniciativa se encuentran: CEDILIJ (Centro de Difusión e Investigación de Literatura Infantil y Juvenil), Casa de las Infancias María Elena Walsh, ALIJA (Asociación de Literatura Infantil y Juvenil de la Argentina), República de los Niños, Teatro San Martín, Biblioteca Nacional Mariano Moreno, MUNTREF – Museos de la Universidad Nacional de Tres de Febrero. Dirección General de Promoción del Libro, Bibliotecas y la Cultura del Ministerio de Cultura del Gobierno de la Ciudad de Buenos Aires.
 
  **Contacto:**
 
