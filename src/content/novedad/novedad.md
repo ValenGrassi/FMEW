@@ -2,7 +2,7 @@
 title: "“EL REINO DEL REVÉS” edición 2025/26 "
 image: /uploads/whatsapp-image-2026-07-30-at-12.39.39-pm.jpeg
 video: ""
-credits: Fundación Walsh-Facio
+credits: .
 ---
 Estimados/as,
 
@@ -17,4 +17,4 @@ El jurado estará integrado por Valeria Ambrosio, Norma Angeleri y Vivi Tellas.
 La Fundación invita especialmente a teatros, talleres y espacios de formación a compartir la convocatoria con estudiantes y dramaturgos.
 
 📅 Recepción de obras: 22 al 30 de septiembre
-📍 Bases y condiciones: En noticias.
+📍 Bases y condiciones: En noticias
