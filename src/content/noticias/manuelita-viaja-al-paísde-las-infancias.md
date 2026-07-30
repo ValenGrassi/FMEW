@@ -1,6 +1,6 @@
 ---
 order: 15
-title: Manuelita viaja al paísde las infancias
+title: Manuelita viaja al país de las infancias
 galeria:
   - /uploads/whatsapp-image-2026-07-30-at-3.59.27-pm.jpeg
 date: Fundación Walsh-Facio
